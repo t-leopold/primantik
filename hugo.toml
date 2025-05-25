@@ -1,0 +1,21 @@
+baseURL = 'https://primantik.eu/'
+languageCode = 'de-at'
+defaultContentLanguage = 'de'
+title = 'Primantik'
+theme = 'hugo-book'
+[markup.goldmark.renderer]
+    unsafe = true
+[params]
+    name = 'Tobias'
+    BookSection = 'home'
+    BookSearch = false
+    BookComments = false
+[languages]
+    [languages.de]
+        languageName = 'Deutsch'
+        contentDir = 'content/german'
+        weight = 1
+    [languages.en]
+        languageName = 'English'
+        contentDir = 'content/english'
+        weight = 2
