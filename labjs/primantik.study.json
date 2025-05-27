@@ -7,7 +7,7 @@
         {
           "required": true,
           "type": "html",
-          "content": "<header>\n  <h1>Primantik-Studie</h1>\n  <h2>Einverständniserklärung</h2>\n</header>\n<h3>Datenschutz</h3>\n<p>\n  Deine Daten in diesem Experiment werden vertraulich behandelt und können nur vom Forschungsteam des Labor Babelfisch (Universität Wien, Institut für Sprachwissenschaft) eingesehen werden. Das Experiment und die resultierenden Daten werden auf den laboreigenen Servern verarbeitet und nach spätestens 10 Jahren gelöscht.\n</p>\n<p>\n  Deine persönlichen Daten werden separat von deinen Experimentdaten gespeichert. Eine Zuordnung deiner Antworten im Experiment zu deiner Person ist also nicht möglich.\n</p>\n<h3>Teilnahmevoraussetzungen</h3>\n<ul class=\"fliesstext\">\n  <li>Deutsch auf muttersprachlichem Niveau spreche,</li>\n  <li>keine Lese-Rechtschreib-Schwäche habe,</li>\n  <li>keine (unkorrigierte) Sehschwäche habe.</li>\n</ul>\n<form id=\"participant-consent\">\n  <table class=\"table-plain content-horizontal-left alert\">\n    <tr>\n      <th class=\"text-right\">\n        <label for=\"privacy\">Ich habe die Informationen zum Datenschutz zur Kenntnis genommen.<label>\n      </th>\n      <td class=\"text-left\">\n        <input type=\"checkbox\" name=\"datenschutz\" id=\"privacy\" required>\n      </td>\n    </tr>\n    <tr>\n      <th class=\"text-right\">\n        <label for=\"requirements\">Ich bestätige, dass ich die Teilnahmevoraussetzungen erfülle.<label>\n      </th>\n      <td class=\"text-left\">\n        <input type=\"checkbox\" name=\"voraussetzungen\" id=\"requirements\" required>\n      </td>\n    </tr>\n  </table>\n</form>\n"
+          "content": "<header>\n  <h1>Primantik-Studie</h1>\n  <h2>Einverständniserklärung</h2>\n</header>\n<h3>Datenschutz</h3>\n<p>\n  Deine Daten in diesem Experiment werden vertraulich behandelt und können nur vom Forschungsteam des Labor Babelfisch (Universität Wien, Institut für Sprachwissenschaft) eingesehen werden. Das Experiment und die resultierenden Daten werden auf den laboreigenen Servern verarbeitet und nach spätestens 10 Jahren gelöscht.\n</p>\n<p>\n  Deine persönlichen Daten werden separat von deinen Experimentdaten gespeichert. Eine Zuordnung deiner Antworten im Experiment zu deiner Person ist also nicht möglich.\n</p>\n<h3>Teilnahmevoraussetzungen</h3>\n<ul class=\"fliesstext\">\n  <li>Ich spreche Deutsch auf muttersprachlichem Niveau.</li>\n  <li>Ich habe keine Lese-Rechtschreib-Schwäche.</li>\n  <li>Ich habe keine (unkorrigierte) Sehschwäche.</li>\n</ul>\n<form id=\"participant-consent\">\n  <table class=\"table-plain content-horizontal-left alert\">\n    <tr>\n      <th class=\"text-right\">\n        <label for=\"privacy\">Ich habe die Informationen zum Datenschutz zur Kenntnis genommen.<label>\n      </th>\n      <td class=\"text-left\">\n        <input type=\"checkbox\" name=\"datenschutz\" id=\"privacy\" required>\n      </td>\n    </tr>\n    <tr>\n      <th class=\"text-right\">\n        <label for=\"requirements\">Ich bestätige, dass ich die Teilnahmevoraussetzungen erfülle.<label>\n      </th>\n      <td class=\"text-left\">\n        <input type=\"checkbox\" name=\"voraussetzungen\" id=\"requirements\" required>\n      </td>\n    </tr>\n  </table>\n</form>\n"
         }
       ],
       "scrollTop": true,
@@ -594,7 +594,46 @@
       "title": "Test loop",
       "_tab": "Content",
       "_template": false,
-      "plugins": []
+      "plugins": [],
+      "tardy": true
+    },
+    "4": {
+      "id": "4",
+      "type": "lab.flow.Sequence",
+      "children": [
+        "14",
+        "26",
+        "3",
+        "35",
+        "3",
+        "27",
+        "18"
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "random key assignment",
+          "message": "after:prepare",
+          "code": "this.options.parameters.keyw = this.random.choice(['f', 'j']);\nthis.options.parameters.keyn = this.options.parameters.keyw == 'f' ? 'j' : 'f';\n"
+        }
+      ],
+      "title": "Key assignment",
+      "_tab": "Scripts"
     },
     "14": {
       "id": "14",
@@ -603,7 +642,7 @@
         {
           "required": true,
           "type": "html",
-          "content": "<header>\n  <h2>Anleitung</h2>\n</header>\n<p>Bitte lies dir die Anleitung zum Experimentaufbau aufmerksam durch!</p>\n<h3>Ziel</h3>\n<p>\n  Bei diesem Experiment geht es darum so schnell wie möglich zu entscheiden, ob eine Zeichenkette ein deutsches Wort darstellt oder nicht.\n</p>\n<h3>Ablauf</h3>\n<p>\n  Das Experiment besteht aus mehreren Versuchen. Ein Versuch besteht aus vier Teilen:\n</p>\n<ol class=\"fliesstext\">\n  <li>Kreuz (dient der Fokussierung der Aufmerksamkeit)</li>\n  <li>Wort</li>\n  <li>Zeichenkette</li>\n  <li>Rautezeichen</li>\n</ol>\n<p>\nSobald die Rautezeichen erscheinen, musst du schnell entscheiden, ob die eingeblendete Zeichenkette ein <i>Wort</i> oder kein Wort (<i>Nicht-Wort</i>) der deutschen Sprache ist.\n</p>\n<h3>Entscheidung</h3>\n<p>Die Entscheidung erfolgt über die Tasten</p>\n<ul class=\"fliesstext\">\n  <li><kbd>w</kbd> für <b>W</b>ort, falls die Zeichenkette <i>ein</i> deutsches Wort ist;</li>\n  <li><kbd>n</kbd> für <b>N</b>icht-Wort, falls die Zeichenkette <i>kein</i> deutsches Wort ist.</li>\n</ul>\n"
+          "content": "<header>\n  <h2>Anleitung</h2>\n</header>\n<p>Bitte lies dir die Anleitung zum Experimentaufbau aufmerksam durch!</p>\n<h3>Ziel</h3>\n<p>\n  Bei diesem Experiment geht es darum so schnell wie möglich zu entscheiden, ob eine Zeichenkette ein deutsches Wort darstellt oder nicht.\n</p>\n<h3>Ablauf</h3>\n<p>\n  Das Experiment besteht aus mehreren Versuchen. Ein Versuch besteht aus vier Teilen:\n</p>\n<ol class=\"fliesstext\">\n  <li>Kreuz (dient der Fokussierung der Aufmerksamkeit)</li>\n  <li>Wort</li>\n  <li>Zeichenkette</li>\n  <li>Rautezeichen</li>\n</ol>\n<p>\nSobald die Rautezeichen erscheinen, musst du schnell entscheiden, ob die eingeblendete Zeichenkette <i>ein</i> Wort oder <i>kein</i> Wort der deutschen Sprache ist.\n</p>\n<h3>Entscheidung</h3>\n<p>Die Entscheidung erfolgt über die Tasten</p>\n<ul class=\"fliesstext\">\n  <li><kbd>${parameters.keyw}</kbd>, falls die Zeichenkette <i>ein</i> deutsches Wort ist;</li>\n  <li><kbd>${parameters.keyn}</kbd>, falls die Zeichenkette <i>kein</i> deutsches Wort ist.</li>\n</ul>\n"
         }
       ],
       "scrollTop": true,
@@ -634,7 +673,8 @@
       ],
       "title": "Instruc: Main",
       "width": "l",
-      "_tab": "Content"
+      "_tab": "Scripts",
+      "tardy": true
     },
     "18": {
       "id": "18",
@@ -2190,7 +2230,7 @@
       "title": "Experiment loop",
       "_tab": "Content",
       "_collapsed": false,
-      "tardy": false
+      "tardy": true
     },
     "19": {
       "id": "19",
@@ -2226,7 +2266,7 @@
         }
       ],
       "title": "Trial",
-      "_tab": "Content"
+      "_tab": "Scripts"
     },
     "20": {
       "id": "20",
@@ -2509,7 +2549,7 @@
         }
       ],
       "title": "Target",
-      "_tab": "Behavior",
+      "_tab": "Content",
       "timeout": "200"
     },
     "24": {
@@ -2574,11 +2614,11 @@
           "label": "n",
           "event": "keypress",
           "target": "",
-          "filter": "n"
+          "filter": "${parameters.keyn}"
         },
         {
           "label": "w",
-          "filter": "w",
+          "filter": "${parameters.keyw}",
           "event": "keypress"
         }
       ],
@@ -2659,7 +2699,7 @@
           "required": true,
           "type": "text",
           "title": "",
-          "content": "<p>Lege deine Hände auf die Tastatur und drücke <kbd>w</kbd> oder <kbd>n</kbd>, um anzufangen.</p>"
+          "content": "<p>Lege deine Hände auf die Tastatur und drücke <kbd>${parameters.keyw}</kbd> oder <kbd>${parameters.keyn}</kbd>, um anzufangen.</p>"
         }
       ],
       "scrollTop": true,
@@ -2671,7 +2711,7 @@
           "label": "c",
           "event": "keypress",
           "target": "",
-          "filter": "w,n"
+          "filter": "${parameters.keyw},${parameters.keyn}"
         }
       ],
       "parameters": [
@@ -2691,7 +2731,8 @@
       "title": "Instruc: Pre-test",
       "width": "l",
       "_tab": "Content",
-      "correctResponse": "c"
+      "correctResponse": "c",
+      "tardy": true
     },
     "27": {
       "id": "27",
@@ -2706,7 +2747,7 @@
           "required": true,
           "type": "text",
           "title": "",
-          "content": "<p>Wenn du bereit bist mit dem Experiment zu starten, lege deine Hände auf die Tastatur und drücke <kbd>w</kbd> oder <kbd>n</kbd>, um anzufangen.</p>"
+          "content": "<p>Wenn du bereit bist mit dem Experiment zu starten, lege deine Hände auf die Tastatur und drücke <kbd>${parameters.keyw}</kbd> oder <kbd>${parameters.keyn}</kbd>, um anzufangen.</p>"
         }
       ],
       "scrollTop": true,
@@ -2737,10 +2778,11 @@
       ],
       "title": "Instruc: Pre-experiment",
       "width": "l",
-      "_tab": "Content",
+      "_tab": "Behavior",
       "correctResponse": "c",
       "skipCondition": "",
-      "skip": false
+      "skip": false,
+      "tardy": true
     },
     "35": {
       "id": "35",
@@ -2755,7 +2797,7 @@
           "required": true,
           "type": "text",
           "title": "",
-          "content": "<p>Du hast nun nochmal kurz Zeit zu üben. Drücke <kbd>w</kbd> oder <kbd>n</kbd>, um weiterzumachen.</p>"
+          "content": "<p>Du hast nun nochmal kurz Zeit zu üben. Drücke <kbd>${parameters.keyw}</kbd> oder <kbd>${parameters.keyn}</kbd>, um weiterzumachen.</p>"
         }
       ],
       "scrollTop": true,
@@ -2767,7 +2809,7 @@
           "label": "c",
           "event": "keypress",
           "target": "",
-          "filter": "w,n"
+          "filter": "${parameters.keyw},${parameters.keyn}"
         }
       ],
       "parameters": [
@@ -2786,10 +2828,11 @@
       ],
       "title": "Instruc: Between tests",
       "width": "l",
-      "_tab": "Content",
+      "_tab": "Behavior",
       "correctResponse": "c",
       "skip": false,
-      "skipCondition": ""
+      "skipCondition": "",
+      "tardy": true
     },
     "root": {
       "id": "root",
@@ -2797,13 +2840,7 @@
       "type": "lab.flow.Sequence",
       "children": [
         "1",
-        "14",
-        "26",
-        "3",
-        "35",
-        "3",
-        "27",
-        "18",
+        "4",
         "25"
       ],
       "parameters": [],
@@ -2815,7 +2852,7 @@
       "metadata": {
         "title": "Primantik",
         "description": "Determine whether there is a difference in processing words which are linked by an associative relation compared to words linked by a semantic relation.",
-        "repository": "",
+        "repository": "https://github.com/t-leopold/primantik",
         "contributors": "Zahra Al-Saigh\nAleyna Aydin\nChristina Dygruber\nTobias Leopold"
       }
     }

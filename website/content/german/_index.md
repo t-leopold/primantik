@@ -10,7 +10,7 @@ bookFlatSection: true
 **Jetzt teilnehmen**  
 Auch du kannst am Experiment teilnehmen, wenn du 10 Minuten Zeit hast.
 
-[Hier gehts zum Experiment!](https://jatos.mindprobe.eu/publix/VGkGJmgv1TP)
+[Hier gehts zum Experiment!](https://jatos.mindprobe.eu/publix/run?code=rUpXdYwV6kG)
 {{% /hint %}}
 
 ## Ziel
@@ -37,6 +37,6 @@ Hier kannst du in Kürze Näheres zum Experimentaufbau nachlesen.
 
 Ende Juni 2025 werden die Ergebnisse hier veröffentlicht.
 
-{{< button relref="/" >}}Zum Ergebnis{{< /button >}}
+{{< button relref="/ergebnis" >}}Zum Ergebnis{{< /button >}}
 
 {{% /columns %}}
