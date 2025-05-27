@@ -4,12 +4,14 @@
 
 Die Projektdatei `primantik.study.json` reicht aus, um das Experiment im lab.js-Builder zu rekonstruieren. Dort kann man sich das Experiment im geeigneten Format exportieren lassen, um es auf JATOS laufen zu lassen.
 
-Die Datei `conditions.csv` enthält die Stimuli des Experiments. Die Daten basieren auf jenen von `conditions.xlsx` wurden allerdings in mehreren Aspekten angepasst:
+Die Datei `conditions-experiment.csv` enthält die Stimuli für das Experiments; `conditions-test.csv` jene für die Proberunde. Die Daten basieren auf jenen von `conditions.xlsx` wurden allerdings in mehreren Aspekten angepasst:
 
 * Es gibt nur drei Spalten (`condition`, `prime`, `target`), da nur diese für den Experimentaufbau relevant sind.
 * Die Werte des Attributs `condition` wurden gruppiert:
     * Bedingungen, in denen der Zielstimulus ein Wort ist, tragen den Wert `w`.
     * Bedingungen, in denen der Zielstimulus ein Nicht-Wort ist, tragen den Wert `n`.
+
+Aus der Gesamtmenge der Bedingungen wurden die 50 Wortpaare der Bedingung "Associative+Semantic", die ersten 25 Wortpaare der Bedingung "Pronouncable Nonword Target" sowie die ersten 25 Wortpaare der Bedingung "Unpronouncable Nonword Target" entnommen, um den Datensatz für die Proberunde zu bilden. Dieser besteht wie der Datensatz für das Experiment zur Hälfte aus Nicht-Wörtern.
 
 ## Website
 
