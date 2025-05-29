@@ -2759,7 +2759,7 @@
           "label": "c",
           "event": "keypress",
           "target": "",
-          "filter": "w,n"
+          "filter": "${parameters.keyw},${parameters.keyn}"
         }
       ],
       "parameters": [
