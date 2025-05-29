@@ -10,7 +10,7 @@ bookFlatSection: true
 **Jetzt teilnehmen**  
 Auch du kannst am Experiment teilnehmen, wenn du 10 Minuten Zeit hast.
 
-[Hier gehts zum Experiment!](https://jatos.mindprobe.eu/publix/run?code=rUpXdYwV6kG)
+[Hier gehts zum Experiment!](https://jatos.mindprobe.eu/publix/run?code=NKt6T4Fmgov)
 {{% /hint %}}
 
 ## Ziel
