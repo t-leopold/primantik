@@ -2648,7 +2648,7 @@
         {
           "type": "text",
           "title": "Vielen Dank für deine Teilnahme!",
-          "content": "<p>Bitte beantworte noch diese zwei Fragen.</p>"
+          "content": "<p>Bitte beantworte noch diese zwei Fragen und schicke dann deine Ergebnisse mit dem Button unten ab.</p>"
         },
         {
           "required": true,
@@ -2657,7 +2657,7 @@
         }
       ],
       "scrollTop": true,
-      "submitButtonText": "Abschicken",
+      "submitButtonText": "Ergebnisse abschicken",
       "submitButtonPosition": "right",
       "files": [],
       "responses": [

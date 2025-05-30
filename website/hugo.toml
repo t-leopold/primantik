@@ -1,6 +1,7 @@
 baseURL = 'https://primantik.eu/'
 languageCode = 'de-at'
 defaultContentLanguage = 'de'
+disableKinds = ['taxonomy']
 title = 'Primantik'
 theme = 'hugo-book'
 [markup.goldmark.renderer]
