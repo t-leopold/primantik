@@ -1,0 +1,426 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "": {
+        "type": "string",
+        "examples": [
+          ""
+        ]
+      },
+      "time_commit": {
+        "anyOf": [
+          {
+            "type": "integer",
+            "examples": [
+              44213,
+              54092,
+              55734
+            ]
+          },
+          {
+            "type": "number",
+            "examples": [
+              34316.800000000745,
+              50018.199999999255,
+              54240.40000000037
+            ]
+          }
+        ]
+      },
+      "time_switch": {
+        "anyOf": [
+          {
+            "type": "integer",
+            "examples": [
+              50105,
+              57973,
+              63406
+            ]
+          },
+          {
+            "type": "number",
+            "examples": [
+              34338.264,
+              44221.4,
+              54105.2
+            ]
+          }
+        ]
+      },
+      "time_show": {
+        "anyOf": [
+          {
+            "type": "number",
+            "examples": [
+              3902.7,
+              34338.264,
+              44221.4
+            ]
+          },
+          {
+            "type": "integer",
+            "examples": [
+              50105,
+              57973,
+              63406
+            ]
+          }
+        ]
+      },
+      "response_action": {
+        "type": "string",
+        "examples": [
+          "keypress(j,f)",
+          "keypress(j)",
+          "keypress(f)"
+        ]
+      },
+      "correct": {
+        "type": "boolean",
+        "examples": [
+          true,
+          false
+        ]
+      },
+      "geschlecht": {
+        "type": "string",
+        "examples": [
+          "f"
+        ]
+      },
+      "keyw": {
+        "type": "string",
+        "examples": [
+          "j"
+        ]
+      },
+      "voraussetzungen": {
+        "type": "boolean",
+        "examples": [
+          true
+        ]
+      },
+      "sender_id": {
+        "anyOf": [
+          {
+            "type": "null",
+            "examples": [
+              null
+            ]
+          },
+          {
+            "type": "string",
+            "examples": [
+              "0",
+              "1_0",
+              "1_1"
+            ]
+          }
+        ]
+      },
+      "timeout": {
+        "type": "integer",
+        "examples": [
+          850,
+          50
+        ]
+      },
+      "duration": {
+        "anyOf": [
+          {
+            "type": "number",
+            "examples": [
+              30411.8,
+              9874.235999999997,
+              5788.0999999999985
+            ]
+          },
+          {
+            "type": "integer",
+            "examples": [
+              149,
+              200,
+              150
+            ]
+          }
+        ]
+      },
+      "time_end": {
+        "anyOf": [
+          {
+            "type": "integer",
+            "examples": [
+              69990,
+              90673,
+              103693
+            ]
+          },
+          {
+            "type": "number",
+            "examples": [
+              34314.5,
+              44212.5,
+              50009.5
+            ]
+          }
+        ]
+      },
+      "keyn": {
+        "type": "string",
+        "examples": [
+          "f"
+        ]
+      },
+      "timestamp": {
+        "type": "string",
+        "format": "date-time",
+        "examples": [
+          "2025-05-29T12:37:50.597Z",
+          "2025-05-29T12:38:00.494Z",
+          "2025-05-29T12:38:06.299Z"
+        ]
+      },
+      "alter": {
+        "type": "string",
+        "examples": [
+          "22"
+        ]
+      },
+      "prime": {
+        "type": "string",
+        "examples": [
+          "Beratung",
+          "Bildung",
+          "Konzert"
+        ]
+      },
+      "ended_on": {
+        "type": "string",
+        "examples": [
+          "form submission",
+          "response",
+          "timeout"
+        ]
+      },
+      "correctResponse": {
+        "type": "string",
+        "examples": [
+          "c",
+          "w",
+          "n"
+        ]
+      },
+      "sender_type": {
+        "type": "string",
+        "examples": [
+          "html.Page",
+          "canvas.Screen",
+          "flow.Sequence"
+        ]
+      },
+      "time_run": {
+        "anyOf": [
+          {
+            "type": "integer",
+            "examples": [
+              90681,
+              97731,
+              109544
+            ]
+          },
+          {
+            "type": "number",
+            "examples": [
+              3887.5,
+              34318.699999999255,
+              44215.199999999255
+            ]
+          }
+        ]
+      },
+      "url": {
+        "type": "object"
+      },
+      "target": {
+        "type": "string",
+        "examples": [
+          "Schulung",
+          "Akrae",
+          "Chor"
+        ]
+      },
+      "datenschutz": {
+        "type": "boolean",
+        "examples": [
+          true
+        ]
+      },
+      "condition": {
+        "type": "string",
+        "examples": [
+          "w",
+          "n"
+        ]
+      },
+      "sender": {
+        "type": "string",
+        "examples": [
+          "Consent",
+          "Instruc: Main",
+          "Instruc: Pre-test"
+        ]
+      },
+      "meta": {
+        "type": "object",
+        "properties": {
+          "labjs_version": {
+            "type": "string",
+            "examples": [
+              "20.2.4"
+            ]
+          },
+          "screen_width": {
+            "type": "integer",
+            "examples": [
+              1440
+            ]
+          },
+          "labjs_build": {
+            "type": "object",
+            "properties": {
+              "flavor": {
+                "type": "string",
+                "examples": [
+                  "production"
+                ]
+              },
+              "commit": {
+                "type": "string",
+                "examples": [
+                  "f5b4a49f956347addd546a832a3327688c2c0fef"
+                ]
+              }
+            }
+          },
+          "window_innerWidth": {
+            "type": "integer",
+            "examples": [
+              1440
+            ]
+          },
+          "timeZone": {
+            "type": "string",
+            "examples": [
+              "Europe/Vienna"
+            ]
+          },
+          "userAgent": {
+            "type": "string",
+            "examples": [
+              "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+            ]
+          },
+          "language": {
+            "type": "string",
+            "examples": [
+              "en-US"
+            ]
+          },
+          "locale": {
+            "type": "string",
+            "examples": [
+              "en-GB"
+            ]
+          },
+          "scroll_width": {
+            "type": "integer",
+            "examples": [
+              1440
+            ]
+          },
+          "platform": {
+            "type": "string",
+            "examples": [
+              "MacIntel"
+            ]
+          },
+          "devicePixelRatio": {
+            "type": "integer",
+            "examples": [
+              1
+            ]
+          },
+          "window_innerHeight": {
+            "type": "integer",
+            "examples": [
+              670
+            ]
+          },
+          "screen_height": {
+            "type": "integer",
+            "examples": [
+              900
+            ]
+          },
+          "timezoneOffset": {
+            "type": "integer",
+            "examples": [
+              -120
+            ]
+          },
+          "location": {
+            "type": "string",
+            "examples": [
+              "https://jatos.mindprobe.eu/publix/635b3df9-b709-44bc-9232-27e1723e1e1a/a0bfb6c6-b121-4a38-ba37-c845fab35a85/start"
+            ]
+          },
+          "scroll_height": {
+            "type": "integer",
+            "examples": [
+              622
+            ]
+          }
+        }
+      },
+      "response": {
+        "type": "string",
+        "examples": [
+          "c",
+          "w",
+          "n"
+        ]
+      },
+      "fixation": {
+        "type": "integer",
+        "examples": [
+          4000,
+          2000,
+          5000
+        ]
+      },
+      "time_render": {
+        "anyOf": [
+          {
+            "type": "integer",
+            "examples": [
+              3886,
+              69990,
+              103693
+            ]
+          },
+          {
+            "type": "number",
+            "examples": [
+              34338.264,
+              44205.6,
+              50089.1
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

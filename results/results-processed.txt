@@ -1,0 +1,6439 @@
+[
+  {
+    "prime": "Beratung",
+    "target": "Schulung",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 419
+  },
+  {
+    "prime": "Konzert",
+    "target": "Chor",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 355
+  },
+  {
+    "prime": "Kinn",
+    "target": "Gesicht",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 487
+  },
+  {
+    "prime": "Lärm",
+    "target": "Anwohner",
+    "timeout_soll": 50,
+    "timeout_ist": 51,
+    "response_time": 606
+  },
+  {
+    "prime": "Klima",
+    "target": "Umwelt",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 607
+  },
+  {
+    "prime": "Ehe",
+    "target": "Schutz",
+    "timeout_soll": 50,
+    "timeout_ist": 51,
+    "response_time": 524
+  },
+  {
+    "prime": "Galgen",
+    "target": "Fischer",
+    "timeout_soll": 50,
+    "timeout_ist": 51,
+    "response_time": 905
+  },
+  {
+    "prime": "Buche",
+    "target": "Eiche",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 662
+  },
+  {
+    "prime": "Keks",
+    "target": "Tiefe",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 370
+  },
+  {
+    "prime": "Neugier",
+    "target": "Hingabe",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 447
+  },
+  {
+    "prime": "Dauer",
+    "target": "Hysterie",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 814
+  },
+  {
+    "prime": "Reife",
+    "target": "Kanzler",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 389
+  },
+  {
+    "prime": "Ball",
+    "target": "Rache",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 443
+  },
+  {
+    "prime": "Vergehen",
+    "target": "Tötung",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 334
+  },
+  {
+    "prime": "Chef",
+    "target": "Anwalt",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 451
+  },
+  {
+    "prime": "Mittel",
+    "target": "Zweck",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 345
+  },
+  {
+    "prime": "Dichtung",
+    "target": "Wahrheit",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 302
+  },
+  {
+    "prime": "Figur",
+    "target": "Karton",
+    "timeout_soll": 50,
+    "timeout_ist": 51,
+    "response_time": 460
+  },
+  {
+    "prime": "Pfote",
+    "target": "Wange",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 373
+  },
+  {
+    "prime": "Skript",
+    "target": "Buch",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 409
+  },
+  {
+    "prime": "Fabel",
+    "target": "Reich",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 412
+  },
+  {
+    "prime": "Druck",
+    "target": "Sache",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 399
+  },
+  {
+    "prime": "Alibi",
+    "target": "Hof",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 352
+  },
+  {
+    "prime": "Baum",
+    "target": "Laster",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 285
+  },
+  {
+    "prime": "Ort",
+    "target": "Pfosten",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 719
+  },
+  {
+    "prime": "Metall",
+    "target": "Holz",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 308
+  },
+  {
+    "prime": "Exempel",
+    "target": "Probe",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 322
+  },
+  {
+    "prime": "Denker",
+    "target": "Lenker",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 353
+  },
+  {
+    "prime": "Rückkehr",
+    "target": "Exil",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 406
+  }
+]
+[
+  {
+    "prime": "Keramik",
+    "target": "Glas",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 775
+  },
+  {
+    "prime": "Elend",
+    "target": "Not",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 644
+  },
+  {
+    "prime": "Stroh",
+    "target": "Heu",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 622
+  },
+  {
+    "prime": "Gestalt",
+    "target": "Statur",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 1246
+  },
+  {
+    "prime": "Speicher",
+    "target": "Wischer",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 716
+  },
+  {
+    "prime": "Klima",
+    "target": "Umwelt",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 579
+  },
+  {
+    "prime": "Flut",
+    "target": "Ebbe",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 685
+  },
+  {
+    "prime": "Stolz",
+    "target": "Ironie",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 476
+  },
+  {
+    "prime": "Geliebte",
+    "target": "Verehrer",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 586
+  },
+  {
+    "prime": "Pfanne",
+    "target": "Lauch",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 558
+  },
+  {
+    "prime": "Metall",
+    "target": "Holz",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 516
+  },
+  {
+    "prime": "Schalter",
+    "target": "Magazin",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 542
+  },
+  {
+    "prime": "Messer",
+    "target": "Gabel",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 607
+  },
+  {
+    "prime": "Freund",
+    "target": "Nazi",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 702
+  },
+  {
+    "prime": "Idol",
+    "target": "Vater",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 523
+  },
+  {
+    "prime": "Tür",
+    "target": "Pakt",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 908
+  },
+  {
+    "prime": "Denker",
+    "target": "Lenker",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 469
+  },
+  {
+    "prime": "Konzept",
+    "target": "Bild",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 394
+  },
+  {
+    "prime": "Ärger",
+    "target": "Magnet",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 576
+  },
+  {
+    "prime": "Ziel",
+    "target": "Anliegen",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 658
+  },
+  {
+    "prime": "Gloria",
+    "target": "Glanz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 444
+  },
+  {
+    "prime": "Satz",
+    "target": "Umstand",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 555
+  },
+  {
+    "prime": "Druck",
+    "target": "Sache",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 449
+  },
+  {
+    "prime": "Kolben",
+    "target": "Labor",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 564
+  },
+  {
+    "prime": "Schaden",
+    "target": "Kosten",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 324
+  },
+  {
+    "prime": "Gelee",
+    "target": "Käse",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 739
+  },
+  {
+    "prime": "Fabel",
+    "target": "Reich",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 635
+  },
+  {
+    "prime": "Vergehen",
+    "target": "Tötung",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 638
+  },
+  {
+    "prime": "Sturm",
+    "target": "Drang",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 795
+  },
+  {
+    "prime": "Schwefel",
+    "target": "Pech",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 513
+  },
+  {
+    "prime": "Gunst",
+    "target": "Stunde",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 596
+  }
+]
+[
+  {
+    "prime": "Abbau",
+    "target": "Senkung",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 881
+  },
+  {
+    "prime": "Donner",
+    "target": "Blitz",
+    "timeout_soll": 850,
+    "timeout_ist": 856,
+    "response_time": 626
+  },
+  {
+    "prime": "Uranus",
+    "target": "Neptun",
+    "timeout_soll": 850,
+    "timeout_ist": 855,
+    "response_time": 637
+  },
+  {
+    "prime": "Rückkehr",
+    "target": "Exil",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 645
+  },
+  {
+    "prime": "Seife",
+    "target": "Kraut",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 471
+  },
+  {
+    "prime": "Putz",
+    "target": "Schnabel",
+    "timeout_soll": 850,
+    "timeout_ist": 856,
+    "response_time": 535
+  },
+  {
+    "prime": "Zeug",
+    "target": "Gefühl",
+    "timeout_soll": 850,
+    "timeout_ist": 855,
+    "response_time": 556
+  },
+  {
+    "prime": "Kolben",
+    "target": "Labor",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 674
+  },
+  {
+    "prime": "Tugend",
+    "target": "Pfad",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 496
+  },
+  {
+    "prime": "Omega",
+    "target": "Alpha",
+    "timeout_soll": 850,
+    "timeout_ist": 856,
+    "response_time": 500
+  },
+  {
+    "prime": "Richtung",
+    "target": "Spieler",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 560
+  },
+  {
+    "prime": "Ecke",
+    "target": "Wille",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 588
+  },
+  {
+    "prime": "Schluck",
+    "target": "Legende",
+    "timeout_soll": 850,
+    "timeout_ist": 856,
+    "response_time": 780
+  },
+  {
+    "prime": "Pudel",
+    "target": "Kreis",
+    "timeout_soll": 850,
+    "timeout_ist": 856,
+    "response_time": 522
+  },
+  {
+    "prime": "Ausdauer",
+    "target": "Kraft",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 868
+  },
+  {
+    "prime": "Phönix",
+    "target": "Asche",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 463
+  },
+  {
+    "prime": "Skala",
+    "target": "Spanne",
+    "timeout_soll": 850,
+    "timeout_ist": 856,
+    "response_time": 548
+  },
+  {
+    "prime": "Speicher",
+    "target": "Wischer",
+    "timeout_soll": 850,
+    "timeout_ist": 855,
+    "response_time": 570
+  },
+  {
+    "prime": "Stock",
+    "target": "Stein",
+    "timeout_soll": 850,
+    "timeout_ist": 856,
+    "response_time": 529
+  },
+  {
+    "prime": "Ziel",
+    "target": "Anliegen",
+    "timeout_soll": 850,
+    "timeout_ist": 855,
+    "response_time": 320
+  },
+  {
+    "prime": "Mangel",
+    "target": "Bär",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 559
+  },
+  {
+    "prime": "Sex",
+    "target": "Gulasch",
+    "timeout_soll": 850,
+    "timeout_ist": 856,
+    "response_time": 1018
+  }
+]
+[
+  {
+    "prime": "Stroh",
+    "target": "Heu",
+    "timeout_soll": 50,
+    "timeout_ist": 66,
+    "response_time": 1224
+  },
+  {
+    "prime": "Elend",
+    "target": "Not",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 768
+  },
+  {
+    "prime": "Uranus",
+    "target": "Neptun",
+    "timeout_soll": 50,
+    "timeout_ist": 66,
+    "response_time": 516
+  },
+  {
+    "prime": "Glied",
+    "target": "Kette",
+    "timeout_soll": 50,
+    "timeout_ist": 67,
+    "response_time": 620
+  },
+  {
+    "prime": "Stroh",
+    "target": "Heu",
+    "timeout_soll": 50,
+    "timeout_ist": 66,
+    "response_time": 348
+  },
+  {
+    "prime": "Iris",
+    "target": "Takt",
+    "timeout_soll": 50,
+    "timeout_ist": 67,
+    "response_time": 698
+  },
+  {
+    "prime": "Typ",
+    "target": "Diabetes",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 371
+  },
+  {
+    "prime": "Satz",
+    "target": "Umstand",
+    "timeout_soll": 50,
+    "timeout_ist": 66,
+    "response_time": 564
+  },
+  {
+    "prime": "Gelee",
+    "target": "Käse",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 686
+  },
+  {
+    "prime": "Chef",
+    "target": "Anwalt",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 495
+  },
+  {
+    "prime": "Reis",
+    "target": "Schinken",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 395
+  },
+  {
+    "prime": "Ehe",
+    "target": "Schutz",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 346
+  },
+  {
+    "prime": "Trost",
+    "target": "Ausweg",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 466
+  },
+  {
+    "prime": "Denker",
+    "target": "Lenker",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 1078
+  },
+  {
+    "prime": "Speicher",
+    "target": "Wischer",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 807
+  },
+  {
+    "prime": "Praxis",
+    "target": "Arzt",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 395
+  },
+  {
+    "prime": "Prügel",
+    "target": "Tracht",
+    "timeout_soll": 50,
+    "timeout_ist": 67,
+    "response_time": 1031
+  },
+  {
+    "prime": "Mangel",
+    "target": "Bär",
+    "timeout_soll": 50,
+    "timeout_ist": 66,
+    "response_time": 507
+  },
+  {
+    "prime": "Idol",
+    "target": "Vater",
+    "timeout_soll": 50,
+    "timeout_ist": 66,
+    "response_time": 607
+  },
+  {
+    "prime": "Rückkehr",
+    "target": "Exil",
+    "timeout_soll": 50,
+    "timeout_ist": 66,
+    "response_time": 549
+  },
+  {
+    "prime": "Ziel",
+    "target": "Anliegen",
+    "timeout_soll": 50,
+    "timeout_ist": 66,
+    "response_time": 458
+  },
+  {
+    "prime": "Tafel",
+    "target": "Kreide",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 428
+  },
+  {
+    "prime": "Ball",
+    "target": "Rache",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 415
+  },
+  {
+    "prime": "Hals",
+    "target": "Dolch",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 379
+  },
+  {
+    "prime": "Text",
+    "target": "Krimi",
+    "timeout_soll": 50,
+    "timeout_ist": 67,
+    "response_time": 723
+  },
+  {
+    "prime": "Ticket",
+    "target": "Sitz",
+    "timeout_soll": 50,
+    "timeout_ist": 67,
+    "response_time": 348
+  },
+  {
+    "prime": "Freund",
+    "target": "Nazi",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 662
+  }
+]
+[
+  {
+    "prime": "Verleger",
+    "target": "Autor",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 523
+  },
+  {
+    "prime": "Satz",
+    "target": "Umstand",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 754
+  },
+  {
+    "prime": "Schalter",
+    "target": "Magazin",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 586
+  },
+  {
+    "prime": "Gelee",
+    "target": "Käse",
+    "timeout_soll": 50,
+    "timeout_ist": 55,
+    "response_time": 1092
+  },
+  {
+    "prime": "Doping",
+    "target": "Kampf",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 622
+  },
+  {
+    "prime": "Pfote",
+    "target": "Wange",
+    "timeout_soll": 50,
+    "timeout_ist": 43,
+    "response_time": 491
+  },
+  {
+    "prime": "Aula",
+    "target": "Schule",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 536
+  },
+  {
+    "prime": "Risiko",
+    "target": "Höhe",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 754
+  },
+  {
+    "prime": "Stolz",
+    "target": "Ironie",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 561
+  },
+  {
+    "prime": "Putz",
+    "target": "Schnabel",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 688
+  },
+  {
+    "prime": "Knabe",
+    "target": "Junge",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 389
+  },
+  {
+    "prime": "Klo",
+    "target": "Sofa",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 430
+  },
+  {
+    "prime": "Schal",
+    "target": "Kragen",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 410
+  },
+  {
+    "prime": "Sprecher",
+    "target": "Fraktion",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 163
+  },
+  {
+    "prime": "Rechnung",
+    "target": "Intrige",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 881
+  },
+  {
+    "prime": "Kopf",
+    "target": "Schlinge",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 433
+  },
+  {
+    "prime": "Fabel",
+    "target": "Reich",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 523
+  },
+  {
+    "prime": "Quartal",
+    "target": "Schlange",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 480
+  },
+  {
+    "prime": "Stock",
+    "target": "Stein",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 466
+  },
+  {
+    "prime": "Exempel",
+    "target": "Probe",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 626
+  }
+]
+[
+  {
+    "prime": "Beute",
+    "target": "Täter",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 1079
+  },
+  {
+    "prime": "Morgen",
+    "target": "Abend",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 901
+  },
+  {
+    "prime": "Pflege",
+    "target": "Wartung",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 352
+  },
+  {
+    "prime": "Stroh",
+    "target": "Heu",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 190
+  },
+  {
+    "prime": "Schauer",
+    "target": "Rücken",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 343
+  },
+  {
+    "prime": "Gestalt",
+    "target": "Statur",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 69
+  },
+  {
+    "prime": "Skala",
+    "target": "Spanne",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 356
+  },
+  {
+    "prime": "Figur",
+    "target": "Karton",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 342
+  },
+  {
+    "prime": "Putz",
+    "target": "Schnabel",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 104
+  },
+  {
+    "prime": "Neugier",
+    "target": "Hingabe",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 453
+  },
+  {
+    "prime": "Prügel",
+    "target": "Tracht",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 125
+  },
+  {
+    "prime": "Hals",
+    "target": "Dolch",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 366
+  },
+  {
+    "prime": "Farbe",
+    "target": "Ufer",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 311
+  },
+  {
+    "prime": "Ticket",
+    "target": "Sitz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 179
+  },
+  {
+    "prime": "Ansatz",
+    "target": "Schritt",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 192
+  },
+  {
+    "prime": "Aula",
+    "target": "Schule",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 142
+  },
+  {
+    "prime": "Erz",
+    "target": "Verband",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 193
+  },
+  {
+    "prime": "Text",
+    "target": "Krimi",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 153
+  },
+  {
+    "prime": "Sieger",
+    "target": "Jury",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 378
+  },
+  {
+    "prime": "Kälte",
+    "target": "Hunger",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 46
+  },
+  {
+    "prime": "Nutzen",
+    "target": "Entwurf",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 257
+  },
+  {
+    "prime": "Detail",
+    "target": "Teufel",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 421
+  },
+  {
+    "prime": "Eigentum",
+    "target": "Rausch",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 44
+  },
+  {
+    "prime": "Deich",
+    "target": "Zaun",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 428
+  },
+  {
+    "prime": "Pfote",
+    "target": "Wange",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 235
+  },
+  {
+    "prime": "Sex",
+    "target": "Gulasch",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 82
+  },
+  {
+    "prime": "Schalter",
+    "target": "Magazin",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 314
+  },
+  {
+    "prime": "Freund",
+    "target": "Nazi",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 332
+  },
+  {
+    "prime": "Denker",
+    "target": "Lenker",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 187
+  },
+  {
+    "prime": "Logik",
+    "target": "Oma",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 212
+  },
+  {
+    "prime": "Schwefel",
+    "target": "Pech",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 84
+  },
+  {
+    "prime": "Ehe",
+    "target": "Schutz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 47
+  }
+]
+[
+  {
+    "prime": "Tisch",
+    "target": "Stuhl",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 332
+  },
+  {
+    "prime": "Malz",
+    "target": "Hopfen",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 311
+  },
+  {
+    "prime": "Abbau",
+    "target": "Senkung",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 61
+  },
+  {
+    "prime": "Kilo",
+    "target": "Gewicht",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 47
+  },
+  {
+    "prime": "Morgen",
+    "target": "Abend",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 281
+  },
+  {
+    "prime": "Stroh",
+    "target": "Heu",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 522
+  },
+  {
+    "prime": "Dauer",
+    "target": "Hysterie",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 308
+  },
+  {
+    "prime": "Leid",
+    "target": "Witz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 224
+  },
+  {
+    "prime": "Zoo",
+    "target": "Anhalter",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 328
+  },
+  {
+    "prime": "Schluck",
+    "target": "Legende",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 14
+  },
+  {
+    "prime": "Ehe",
+    "target": "Schutz",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 207
+  },
+  {
+    "prime": "Omega",
+    "target": "Alpha",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 234
+  },
+  {
+    "prime": "Datum",
+    "target": "Elch",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 89
+  },
+  {
+    "prime": "Alibi",
+    "target": "Hof",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 302
+  },
+  {
+    "prime": "Ohr",
+    "target": "Knopf",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 181
+  },
+  {
+    "prime": "Ansatz",
+    "target": "Schritt",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 219
+  },
+  {
+    "prime": "Typ",
+    "target": "Diabetes",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 510
+  },
+  {
+    "prime": "Klima",
+    "target": "Umwelt",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 233
+  },
+  {
+    "prime": "Brenner",
+    "target": "Mühe",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 72
+  },
+  {
+    "prime": "Reis",
+    "target": "Schinken",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 2
+  },
+  {
+    "prime": "Putz",
+    "target": "Schnabel",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 301
+  },
+  {
+    "prime": "Nutzen",
+    "target": "Entwurf",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 250
+  },
+  {
+    "prime": "Schaden",
+    "target": "Kosten",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 127
+  },
+  {
+    "prime": "Quartal",
+    "target": "Schlange",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 622
+  },
+  {
+    "prime": "Praxis",
+    "target": "Arzt",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 145
+  },
+  {
+    "prime": "Glück",
+    "target": "Essen",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 98
+  },
+  {
+    "prime": "Ort",
+    "target": "Pfosten",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 520
+  },
+  {
+    "prime": "Buche",
+    "target": "Eiche",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 58
+  },
+  {
+    "prime": "Kolben",
+    "target": "Labor",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 432
+  },
+  {
+    "prime": "Schwefel",
+    "target": "Pech",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 274
+  },
+  {
+    "prime": "Rückkehr",
+    "target": "Exil",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 76
+  },
+  {
+    "prime": "Bahre",
+    "target": "Wiege",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 329
+  }
+]
+[
+  {
+    "prime": "Beratung",
+    "target": "Schulung",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 192
+  },
+  {
+    "prime": "Pflege",
+    "target": "Wartung",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 1201
+  },
+  {
+    "prime": "Radar",
+    "target": "Verlauf",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 361
+  },
+  {
+    "prime": "Aspekt",
+    "target": "Faktor",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 345
+  },
+  {
+    "prime": "Hals",
+    "target": "Dolch",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 524
+  },
+  {
+    "prime": "Bäcker",
+    "target": "Metzger",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 369
+  },
+  {
+    "prime": "Schwefel",
+    "target": "Pech",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 299
+  },
+  {
+    "prime": "Konzept",
+    "target": "Bild",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 370
+  },
+  {
+    "prime": "Glück",
+    "target": "Essen",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 305
+  },
+  {
+    "prime": "Indiz",
+    "target": "Signal",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 422
+  },
+  {
+    "prime": "Mangel",
+    "target": "Bär",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 883
+  },
+  {
+    "prime": "Lohn",
+    "target": "Brot",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 1240
+  },
+  {
+    "prime": "Stock",
+    "target": "Stein",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 31
+  },
+  {
+    "prime": "Klo",
+    "target": "Sofa",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 60
+  },
+  {
+    "prime": "Gelee",
+    "target": "Käse",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 298
+  },
+  {
+    "prime": "Ticket",
+    "target": "Sitz",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 61
+  },
+  {
+    "prime": "Kanne",
+    "target": "Finger",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 238
+  },
+  {
+    "prime": "Freund",
+    "target": "Nazi",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 28
+  },
+  {
+    "prime": "Eile",
+    "target": "Vorsicht",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 78
+  }
+]
+[
+  {
+    "prime": "Franzose",
+    "target": "Spanier",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 818
+  },
+  {
+    "prime": "Elend",
+    "target": "Not",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 1214
+  },
+  {
+    "prime": "Stroh",
+    "target": "Heu",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 886
+  },
+  {
+    "prime": "Fleisch",
+    "target": "Obst",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 1107
+  },
+  {
+    "prime": "Rind",
+    "target": "Schwein",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 564
+  },
+  {
+    "prime": "Haar",
+    "target": "Gel",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 619
+  },
+  {
+    "prime": "Druck",
+    "target": "Sache",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 414
+  },
+  {
+    "prime": "Metall",
+    "target": "Holz",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 650
+  },
+  {
+    "prime": "Skript",
+    "target": "Buch",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 813
+  },
+  {
+    "prime": "Kanne",
+    "target": "Finger",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 1161
+  },
+  {
+    "prime": "Leid",
+    "target": "Witz",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 652
+  },
+  {
+    "prime": "Vergehen",
+    "target": "Tötung",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 679
+  },
+  {
+    "prime": "Sieger",
+    "target": "Jury",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 530
+  },
+  {
+    "prime": "Ohr",
+    "target": "Knopf",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 511
+  },
+  {
+    "prime": "Idol",
+    "target": "Vater",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 786
+  },
+  {
+    "prime": "Praxis",
+    "target": "Arzt",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 532
+  },
+  {
+    "prime": "Urkunde",
+    "target": "Klage",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 398
+  },
+  {
+    "prime": "Satz",
+    "target": "Umstand",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 441
+  },
+  {
+    "prime": "Ärger",
+    "target": "Magnet",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 421
+  },
+  {
+    "prime": "Ziel",
+    "target": "Anliegen",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 413
+  },
+  {
+    "prime": "Freund",
+    "target": "Nazi",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 724
+  },
+  {
+    "prime": "Kante",
+    "target": "Delikt",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 683
+  },
+  {
+    "prime": "Fabel",
+    "target": "Reich",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 527
+  },
+  {
+    "prime": "Reife",
+    "target": "Kanzler",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 712
+  },
+  {
+    "prime": "Siegel",
+    "target": "Gattung",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 829
+  },
+  {
+    "prime": "Zettel",
+    "target": "Schild",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 587
+  },
+  {
+    "prime": "Fehler",
+    "target": "Luft",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 1075
+  },
+  {
+    "prime": "Kopf",
+    "target": "Schlinge",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 535
+  },
+  {
+    "prime": "Anleihen",
+    "target": "Aktie",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 631
+  }
+]
+[
+  {
+    "prime": "Nikotin",
+    "target": "Alkohol",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 252
+  },
+  {
+    "prime": "Heizung",
+    "target": "Lüftung",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 106
+  },
+  {
+    "prime": "Ruin",
+    "target": "Kollaps",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 510
+  },
+  {
+    "prime": "Seele",
+    "target": "Herz",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 668
+  },
+  {
+    "prime": "Eimer",
+    "target": "Koffer",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 915
+  },
+  {
+    "prime": "Draht",
+    "target": "Hinsicht",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 658
+  },
+  {
+    "prime": "Mangel",
+    "target": "Bär",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 725
+  },
+  {
+    "prime": "Schwefel",
+    "target": "Pech",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 1119
+  },
+  {
+    "prime": "Neugier",
+    "target": "Hingabe",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 652
+  },
+  {
+    "prime": "Erfolg",
+    "target": "Aussicht",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 903
+  },
+  {
+    "prime": "Richtung",
+    "target": "Spieler",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 403
+  },
+  {
+    "prime": "Aula",
+    "target": "Schule",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 868
+  },
+  {
+    "prime": "Konzept",
+    "target": "Bild",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 514
+  },
+  {
+    "prime": "Aspekt",
+    "target": "Faktor",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 289
+  },
+  {
+    "prime": "Phönix",
+    "target": "Asche",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 579
+  },
+  {
+    "prime": "Prügel",
+    "target": "Tracht",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 263
+  },
+  {
+    "prime": "Virus",
+    "target": "Lawine",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 273
+  },
+  {
+    "prime": "Speicher",
+    "target": "Wischer",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 405
+  },
+  {
+    "prime": "Kolben",
+    "target": "Labor",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 382
+  },
+  {
+    "prime": "Skript",
+    "target": "Buch",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 610
+  },
+  {
+    "prime": "Brenner",
+    "target": "Mühe",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 310
+  },
+  {
+    "prime": "Buche",
+    "target": "Eiche",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 356
+  },
+  {
+    "prime": "Klima",
+    "target": "Umwelt",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 835
+  },
+  {
+    "prime": "Messer",
+    "target": "Gabel",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 352
+  },
+  {
+    "prime": "Doping",
+    "target": "Kampf",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 490
+  }
+]
+[
+  {
+    "prime": "Kaffee",
+    "target": "Tasse",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 44
+  },
+  {
+    "prime": "Banane",
+    "target": "Schale",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 1236
+  },
+  {
+    "prime": "Malz",
+    "target": "Hopfen",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 823
+  },
+  {
+    "prime": "Lärm",
+    "target": "Anwohner",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 646
+  },
+  {
+    "prime": "Prügel",
+    "target": "Tracht",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 602
+  },
+  {
+    "prime": "Hammer",
+    "target": "Sichel",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 446
+  },
+  {
+    "prime": "Eigentum",
+    "target": "Rausch",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 439
+  },
+  {
+    "prime": "Phönix",
+    "target": "Asche",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 466
+  },
+  {
+    "prime": "Schaden",
+    "target": "Kosten",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 262
+  },
+  {
+    "prime": "Maschine",
+    "target": "Gondel",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 791
+  },
+  {
+    "prime": "Siegel",
+    "target": "Gattung",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 594
+  },
+  {
+    "prime": "Gestalt",
+    "target": "Statur",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 557
+  },
+  {
+    "prime": "Geschenk",
+    "target": "Erlebnis",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 316
+  },
+  {
+    "prime": "Anleihen",
+    "target": "Aktie",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 689
+  },
+  {
+    "prime": "Dichtung",
+    "target": "Wahrheit",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 383
+  },
+  {
+    "prime": "Druck",
+    "target": "Sache",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 372
+  },
+  {
+    "prime": "Gelee",
+    "target": "Käse",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 275
+  },
+  {
+    "prime": "Risiko",
+    "target": "Höhe",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 321
+  },
+  {
+    "prime": "Zettel",
+    "target": "Schild",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 297
+  },
+  {
+    "prime": "Indiz",
+    "target": "Signal",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 457
+  },
+  {
+    "prime": "Joghurt",
+    "target": "Zimt",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 298
+  },
+  {
+    "prime": "Kopf",
+    "target": "Schlinge",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 290
+  }
+]
+[
+  {
+    "prime": "Rechnung",
+    "target": "Intrige",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 367
+  }
+]
+[
+  {
+    "prime": "Konzert",
+    "target": "Chor",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 419
+  },
+  {
+    "prime": "Schalter",
+    "target": "Magazin",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 802
+  },
+  {
+    "prime": "Exempel",
+    "target": "Probe",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 737
+  },
+  {
+    "prime": "Erfolg",
+    "target": "Aussicht",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 881
+  },
+  {
+    "prime": "Pudel",
+    "target": "Kreis",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 746
+  },
+  {
+    "prime": "Sumpf",
+    "target": "Strudel",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 638
+  },
+  {
+    "prime": "Trost",
+    "target": "Ausweg",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 626
+  },
+  {
+    "prime": "Hammer",
+    "target": "Sichel",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 844
+  },
+  {
+    "prime": "Wähler",
+    "target": "Stimme",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 345
+  },
+  {
+    "prime": "Figur",
+    "target": "Karton",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 347
+  },
+  {
+    "prime": "Galgen",
+    "target": "Fischer",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 379
+  },
+  {
+    "prime": "Reis",
+    "target": "Schinken",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 447
+  },
+  {
+    "prime": "Erz",
+    "target": "Verband",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 427
+  },
+  {
+    "prime": "Ausdauer",
+    "target": "Kraft",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 495
+  },
+  {
+    "prime": "Bahre",
+    "target": "Wiege",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 658
+  },
+  {
+    "prime": "Sammler",
+    "target": "Jäger",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 421
+  },
+  {
+    "prime": "Prügel",
+    "target": "Tracht",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 654
+  },
+  {
+    "prime": "Geliebte",
+    "target": "Verehrer",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 496
+  },
+  {
+    "prime": "Neugier",
+    "target": "Hingabe",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 388
+  },
+  {
+    "prime": "Kolben",
+    "target": "Labor",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 441
+  },
+  {
+    "prime": "Klima",
+    "target": "Umwelt",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 344
+  }
+]
+[
+  {
+    "prime": "Fleisch",
+    "target": "Obst",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 945
+  },
+  {
+    "prime": "Schlager",
+    "target": "Jazz",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 758
+  },
+  {
+    "prime": "Wrack",
+    "target": "Taucher",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 446
+  },
+  {
+    "prime": "Deich",
+    "target": "Zaun",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 239
+  },
+  {
+    "prime": "Flut",
+    "target": "Ebbe",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 468
+  },
+  {
+    "prime": "Speicher",
+    "target": "Wischer",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 682
+  },
+  {
+    "prime": "Ehe",
+    "target": "Schutz",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 262
+  },
+  {
+    "prime": "Büro",
+    "target": "Abteil",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 526
+  },
+  {
+    "prime": "Dauer",
+    "target": "Hysterie",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 514
+  },
+  {
+    "prime": "Neugier",
+    "target": "Hingabe",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 341
+  },
+  {
+    "prime": "Zoo",
+    "target": "Anhalter",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 77
+  },
+  {
+    "prime": "Schal",
+    "target": "Kragen",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 153
+  },
+  {
+    "prime": "Stock",
+    "target": "Stein",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 117
+  },
+  {
+    "prime": "Konzern",
+    "target": "Etat",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 330
+  },
+  {
+    "prime": "Tafel",
+    "target": "Kreide",
+    "timeout_soll": 50,
+    "timeout_ist": 48,
+    "response_time": 577
+  },
+  {
+    "prime": "Metall",
+    "target": "Holz",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 539
+  },
+  {
+    "prime": "Tür",
+    "target": "Pakt",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 1031
+  },
+  {
+    "prime": "Indiz",
+    "target": "Signal",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 341
+  },
+  {
+    "prime": "Baum",
+    "target": "Laster",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 374
+  },
+  {
+    "prime": "Reis",
+    "target": "Schinken",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 921
+  },
+  {
+    "prime": "Fehler",
+    "target": "Luft",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 268
+  },
+  {
+    "prime": "Iris",
+    "target": "Takt",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 242
+  },
+  {
+    "prime": "Hose",
+    "target": "Robe",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 393
+  },
+  {
+    "prime": "Kuh",
+    "target": "Eis",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 82
+  },
+  {
+    "prime": "Risiko",
+    "target": "Höhe",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 214
+  },
+  {
+    "prime": "Rentner",
+    "target": "Tabu",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 561
+  },
+  {
+    "prime": "Quartal",
+    "target": "Schlange",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 368
+  },
+  {
+    "prime": "Gunst",
+    "target": "Stunde",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 74
+  }
+]
+[
+  {
+    "prime": "Mantel",
+    "target": "Hut",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 823
+  },
+  {
+    "prime": "Beute",
+    "target": "Täter",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 674
+  },
+  {
+    "prime": "Kaffee",
+    "target": "Tasse",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 1036
+  },
+  {
+    "prime": "Sprecher",
+    "target": "Fraktion",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 726
+  },
+  {
+    "prime": "Ball",
+    "target": "Rache",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 652
+  },
+  {
+    "prime": "Lob",
+    "target": "Kritik",
+    "timeout_soll": 50,
+    "timeout_ist": 51,
+    "response_time": 633
+  },
+  {
+    "prime": "Ort",
+    "target": "Pfosten",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 491
+  },
+  {
+    "prime": "Erbe",
+    "target": "Ego",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 520
+  },
+  {
+    "prime": "Boot",
+    "target": "Bibel",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 227
+  },
+  {
+    "prime": "Kolben",
+    "target": "Labor",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 116
+  },
+  {
+    "prime": "Buche",
+    "target": "Eiche",
+    "timeout_soll": 50,
+    "timeout_ist": 52,
+    "response_time": 474
+  },
+  {
+    "prime": "Sieger",
+    "target": "Jury",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 525
+  },
+  {
+    "prime": "Ziel",
+    "target": "Anliegen",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 133
+  },
+  {
+    "prime": "Alibi",
+    "target": "Hof",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 397
+  },
+  {
+    "prime": "Knabe",
+    "target": "Junge",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 407
+  },
+  {
+    "prime": "Reife",
+    "target": "Kanzler",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 314
+  },
+  {
+    "prime": "Radar",
+    "target": "Verlauf",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 176
+  },
+  {
+    "prime": "Gunst",
+    "target": "Stunde",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 366
+  },
+  {
+    "prime": "Ausdauer",
+    "target": "Kraft",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 355
+  }
+]
+[
+  {
+    "prime": "Hüfte",
+    "target": "Knie",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 490
+  },
+  {
+    "prime": "Schweif",
+    "target": "Komet",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 395
+  },
+  {
+    "prime": "Schwäche",
+    "target": "Stärke",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 422
+  },
+  {
+    "prime": "Urteil",
+    "target": "Revision",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 548
+  },
+  {
+    "prime": "Sender",
+    "target": "Radio",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 370
+  },
+  {
+    "prime": "Buche",
+    "target": "Eiche",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 319
+  },
+  {
+    "prime": "Messer",
+    "target": "Gabel",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 402
+  },
+  {
+    "prime": "Doping",
+    "target": "Kampf",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 209
+  },
+  {
+    "prime": "Gericht",
+    "target": "Recht",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 295
+  },
+  {
+    "prime": "Büro",
+    "target": "Abteil",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 333
+  },
+  {
+    "prime": "Aspekt",
+    "target": "Faktor",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 326
+  },
+  {
+    "prime": "Klo",
+    "target": "Sofa",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 315
+  },
+  {
+    "prime": "Ruin",
+    "target": "Kollaps",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 253
+  },
+  {
+    "prime": "Kabale",
+    "target": "Liebe",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 278
+  },
+  {
+    "prime": "Prügel",
+    "target": "Tracht",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 247
+  },
+  {
+    "prime": "Datum",
+    "target": "Elch",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 269
+  },
+  {
+    "prime": "Idol",
+    "target": "Vater",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 265
+  },
+  {
+    "prime": "Siegel",
+    "target": "Gattung",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 282
+  },
+  {
+    "prime": "Kanne",
+    "target": "Finger",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 308
+  },
+  {
+    "prime": "Speicher",
+    "target": "Wischer",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 268
+  },
+  {
+    "prime": "Zimmer",
+    "target": "Schwanz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 258
+  },
+  {
+    "prime": "Schalter",
+    "target": "Magazin",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 361
+  },
+  {
+    "prime": "Virus",
+    "target": "Lawine",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 404
+  },
+  {
+    "prime": "Satz",
+    "target": "Umstand",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 415
+  },
+  {
+    "prime": "Konzept",
+    "target": "Bild",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 340
+  },
+  {
+    "prime": "Ziel",
+    "target": "Anliegen",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 380
+  },
+  {
+    "prime": "Denker",
+    "target": "Lenker",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 323
+  },
+  {
+    "prime": "Skala",
+    "target": "Spanne",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 302
+  }
+]
+[
+  {
+    "prime": "Kilo",
+    "target": "Gewicht",
+    "timeout_soll": 50,
+    "timeout_ist": 67,
+    "response_time": 649
+  },
+  {
+    "prime": "Heizung",
+    "target": "Lüftung",
+    "timeout_soll": 850,
+    "timeout_ist": 852,
+    "response_time": 580
+  },
+  {
+    "prime": "Wut",
+    "target": "Trauer",
+    "timeout_soll": 50,
+    "timeout_ist": 100,
+    "response_time": 618
+  },
+  {
+    "prime": "Zug",
+    "target": "Gleis",
+    "timeout_soll": 50,
+    "timeout_ist": 100,
+    "response_time": 546
+  },
+  {
+    "prime": "Keramik",
+    "target": "Glas",
+    "timeout_soll": 850,
+    "timeout_ist": 858,
+    "response_time": 461
+  },
+  {
+    "prime": "Maschine",
+    "target": "Gondel",
+    "timeout_soll": 850,
+    "timeout_ist": 848,
+    "response_time": 366
+  },
+  {
+    "prime": "Sumpf",
+    "target": "Strudel",
+    "timeout_soll": 850,
+    "timeout_ist": 865,
+    "response_time": 332
+  },
+  {
+    "prime": "Boot",
+    "target": "Bibel",
+    "timeout_soll": 850,
+    "timeout_ist": 840,
+    "response_time": 157
+  },
+  {
+    "prime": "Schal",
+    "target": "Kragen",
+    "timeout_soll": 50,
+    "timeout_ist": 100,
+    "response_time": 548
+  },
+  {
+    "prime": "Zoo",
+    "target": "Anhalter",
+    "timeout_soll": 50,
+    "timeout_ist": 100,
+    "response_time": 420
+  },
+  {
+    "prime": "Fehler",
+    "target": "Luft",
+    "timeout_soll": 50,
+    "timeout_ist": 100,
+    "response_time": 605
+  },
+  {
+    "prime": "Galgen",
+    "target": "Fischer",
+    "timeout_soll": 850,
+    "timeout_ist": 863,
+    "response_time": 327
+  },
+  {
+    "prime": "Text",
+    "target": "Krimi",
+    "timeout_soll": 50,
+    "timeout_ist": 100,
+    "response_time": 445
+  },
+  {
+    "prime": "Draht",
+    "target": "Hinsicht",
+    "timeout_soll": 850,
+    "timeout_ist": 861,
+    "response_time": 363
+  },
+  {
+    "prime": "Sammler",
+    "target": "Jäger",
+    "timeout_soll": 50,
+    "timeout_ist": 100,
+    "response_time": 271
+  },
+  {
+    "prime": "Schalter",
+    "target": "Magazin",
+    "timeout_soll": 50,
+    "timeout_ist": 100,
+    "response_time": 422
+  },
+  {
+    "prime": "Chef",
+    "target": "Anwalt",
+    "timeout_soll": 850,
+    "timeout_ist": 853,
+    "response_time": 456
+  },
+  {
+    "prime": "Vergehen",
+    "target": "Tötung",
+    "timeout_soll": 50,
+    "timeout_ist": 100,
+    "response_time": 290
+  },
+  {
+    "prime": "Exempel",
+    "target": "Probe",
+    "timeout_soll": 50,
+    "timeout_ist": 100,
+    "response_time": 476
+  },
+  {
+    "prime": "Strich",
+    "target": "Faden",
+    "timeout_soll": 50,
+    "timeout_ist": 100,
+    "response_time": 327
+  },
+  {
+    "prime": "Schwefel",
+    "target": "Pech",
+    "timeout_soll": 50,
+    "timeout_ist": 100,
+    "response_time": 300
+  },
+  {
+    "prime": "Reis",
+    "target": "Schinken",
+    "timeout_soll": 850,
+    "timeout_ist": 840,
+    "response_time": 376
+  },
+  {
+    "prime": "Baum",
+    "target": "Laster",
+    "timeout_soll": 850,
+    "timeout_ist": 848,
+    "response_time": 326
+  },
+  {
+    "prime": "Aula",
+    "target": "Schule",
+    "timeout_soll": 50,
+    "timeout_ist": 100,
+    "response_time": 303
+  },
+  {
+    "prime": "Ticket",
+    "target": "Sitz",
+    "timeout_soll": 850,
+    "timeout_ist": 866,
+    "response_time": 321
+  },
+  {
+    "prime": "Denker",
+    "target": "Lenker",
+    "timeout_soll": 850,
+    "timeout_ist": 856,
+    "response_time": 463
+  },
+  {
+    "prime": "Leid",
+    "target": "Witz",
+    "timeout_soll": 50,
+    "timeout_ist": 100,
+    "response_time": 354
+  },
+  {
+    "prime": "Quartal",
+    "target": "Schlange",
+    "timeout_soll": 50,
+    "timeout_ist": 100,
+    "response_time": 324
+  },
+  {
+    "prime": "Datum",
+    "target": "Elch",
+    "timeout_soll": 850,
+    "timeout_ist": 853,
+    "response_time": 184
+  },
+  {
+    "prime": "Tugend",
+    "target": "Pfad",
+    "timeout_soll": 50,
+    "timeout_ist": 100,
+    "response_time": 360
+  },
+  {
+    "prime": "Dichtung",
+    "target": "Wahrheit",
+    "timeout_soll": 850,
+    "timeout_ist": 852,
+    "response_time": 271
+  },
+  {
+    "prime": "Praxis",
+    "target": "Arzt",
+    "timeout_soll": 50,
+    "timeout_ist": 100,
+    "response_time": 207
+  }
+]
+[
+  {
+    "prime": "Nikotin",
+    "target": "Alkohol",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 370
+  },
+  {
+    "prime": "Wrack",
+    "target": "Taucher",
+    "timeout_soll": 50,
+    "timeout_ist": 48,
+    "response_time": 310
+  },
+  {
+    "prime": "Keramik",
+    "target": "Glas",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 291
+  },
+  {
+    "prime": "Typ",
+    "target": "Diabetes",
+    "timeout_soll": 50,
+    "timeout_ist": 48,
+    "response_time": 34
+  },
+  {
+    "prime": "Denker",
+    "target": "Lenker",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 182
+  },
+  {
+    "prime": "Eigentum",
+    "target": "Rausch",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 118
+  },
+  {
+    "prime": "Beleg",
+    "target": "Grund",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 162
+  },
+  {
+    "prime": "Nutzen",
+    "target": "Entwurf",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 31
+  },
+  {
+    "prime": "Skala",
+    "target": "Spanne",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 207
+  },
+  {
+    "prime": "Ort",
+    "target": "Pfosten",
+    "timeout_soll": 50,
+    "timeout_ist": 56,
+    "response_time": 16
+  },
+  {
+    "prime": "Aula",
+    "target": "Schule",
+    "timeout_soll": 50,
+    "timeout_ist": 48,
+    "response_time": 93
+  },
+  {
+    "prime": "Mittel",
+    "target": "Zweck",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 328
+  },
+  {
+    "prime": "Judo",
+    "target": "Rugby",
+    "timeout_soll": 50,
+    "timeout_ist": 48,
+    "response_time": 4
+  },
+  {
+    "prime": "Eimer",
+    "target": "Koffer",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 331
+  },
+  {
+    "prime": "Knabe",
+    "target": "Junge",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 395
+  },
+  {
+    "prime": "Phönix",
+    "target": "Asche",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 568
+  },
+  {
+    "prime": "Maschine",
+    "target": "Gondel",
+    "timeout_soll": 50,
+    "timeout_ist": 48,
+    "response_time": 92
+  },
+  {
+    "prime": "Schalter",
+    "target": "Magazin",
+    "timeout_soll": 50,
+    "timeout_ist": 48,
+    "response_time": 106
+  },
+  {
+    "prime": "Ball",
+    "target": "Rache",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 329
+  },
+  {
+    "prime": "Speicher",
+    "target": "Wischer",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 23
+  },
+  {
+    "prime": "Ansatz",
+    "target": "Schritt",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 193
+  },
+  {
+    "prime": "Bäcker",
+    "target": "Metzger",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 412
+  },
+  {
+    "prime": "Büro",
+    "target": "Abteil",
+    "timeout_soll": 50,
+    "timeout_ist": 48,
+    "response_time": 634
+  },
+  {
+    "prime": "Eile",
+    "target": "Vorsicht",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 449
+  }
+]
+[
+  {
+    "prime": "Hüfte",
+    "target": "Knie",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 617
+  },
+  {
+    "prime": "Keramik",
+    "target": "Glas",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 506
+  },
+  {
+    "prime": "Heizung",
+    "target": "Lüftung",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 551
+  },
+  {
+    "prime": "Nutzen",
+    "target": "Entwurf",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 419
+  },
+  {
+    "prime": "Joghurt",
+    "target": "Zimt",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 878
+  },
+  {
+    "prime": "Sturm",
+    "target": "Drang",
+    "timeout_soll": 50,
+    "timeout_ist": 67,
+    "response_time": 1014
+  },
+  {
+    "prime": "Figur",
+    "target": "Karton",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 415
+  },
+  {
+    "prime": "Richtung",
+    "target": "Spieler",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 745
+  },
+  {
+    "prime": "Ziel",
+    "target": "Anliegen",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 903
+  },
+  {
+    "prime": "Kabale",
+    "target": "Liebe",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 479
+  },
+  {
+    "prime": "Erz",
+    "target": "Verband",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 877
+  },
+  {
+    "prime": "Omen",
+    "target": "Zeichen",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 512
+  },
+  {
+    "prime": "Idol",
+    "target": "Vater",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 589
+  },
+  {
+    "prime": "Gunst",
+    "target": "Stunde",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 512
+  },
+  {
+    "prime": "Maschine",
+    "target": "Gondel",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 468
+  },
+  {
+    "prime": "Dauer",
+    "target": "Hysterie",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 235
+  },
+  {
+    "prime": "Lohn",
+    "target": "Brot",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 604
+  },
+  {
+    "prime": "Kälte",
+    "target": "Hunger",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 413
+  },
+  {
+    "prime": "Fabel",
+    "target": "Reich",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 532
+  },
+  {
+    "prime": "Freund",
+    "target": "Nazi",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 313
+  },
+  {
+    "prime": "Kanne",
+    "target": "Finger",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 930
+  }
+]
+[
+  {
+    "prime": "Franzose",
+    "target": "Spanier",
+    "timeout_soll": 50,
+    "timeout_ist": 80,
+    "response_time": 985
+  },
+  {
+    "prime": "Uranus",
+    "target": "Neptun",
+    "timeout_soll": 50,
+    "timeout_ist": 74,
+    "response_time": 510
+  },
+  {
+    "prime": "Wrack",
+    "target": "Taucher",
+    "timeout_soll": 850,
+    "timeout_ist": 861,
+    "response_time": 481
+  },
+  {
+    "prime": "Buche",
+    "target": "Eiche",
+    "timeout_soll": 850,
+    "timeout_ist": 856,
+    "response_time": 521
+  },
+  {
+    "prime": "Mittel",
+    "target": "Zweck",
+    "timeout_soll": 50,
+    "timeout_ist": 78,
+    "response_time": 687
+  },
+  {
+    "prime": "Sturm",
+    "target": "Drang",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 653
+  },
+  {
+    "prime": "Schauer",
+    "target": "Rücken",
+    "timeout_soll": 50,
+    "timeout_ist": 96,
+    "response_time": 561
+  },
+  {
+    "prime": "Freund",
+    "target": "Nazi",
+    "timeout_soll": 850,
+    "timeout_ist": 848,
+    "response_time": 821
+  },
+  {
+    "prime": "Chef",
+    "target": "Anwalt",
+    "timeout_soll": 50,
+    "timeout_ist": 95,
+    "response_time": 479
+  },
+  {
+    "prime": "Galgen",
+    "target": "Fischer",
+    "timeout_soll": 50,
+    "timeout_ist": 96,
+    "response_time": 542
+  },
+  {
+    "prime": "Glück",
+    "target": "Essen",
+    "timeout_soll": 850,
+    "timeout_ist": 857,
+    "response_time": 370
+  },
+  {
+    "prime": "Gestalt",
+    "target": "Statur",
+    "timeout_soll": 50,
+    "timeout_ist": 80,
+    "response_time": 404
+  },
+  {
+    "prime": "Kälte",
+    "target": "Hunger",
+    "timeout_soll": 50,
+    "timeout_ist": 96,
+    "response_time": 399
+  },
+  {
+    "prime": "Knabe",
+    "target": "Junge",
+    "timeout_soll": 50,
+    "timeout_ist": 65,
+    "response_time": 497
+  },
+  {
+    "prime": "Urkunde",
+    "target": "Klage",
+    "timeout_soll": 850,
+    "timeout_ist": 848,
+    "response_time": 412
+  },
+  {
+    "prime": "Nutzen",
+    "target": "Entwurf",
+    "timeout_soll": 850,
+    "timeout_ist": 864,
+    "response_time": 403
+  },
+  {
+    "prime": "Flut",
+    "target": "Ebbe",
+    "timeout_soll": 50,
+    "timeout_ist": 80,
+    "response_time": 470
+  },
+  {
+    "prime": "Indiz",
+    "target": "Signal",
+    "timeout_soll": 50,
+    "timeout_ist": 80,
+    "response_time": 456
+  },
+  {
+    "prime": "Ansatz",
+    "target": "Schritt",
+    "timeout_soll": 50,
+    "timeout_ist": 80,
+    "response_time": 453
+  },
+  {
+    "prime": "Hammer",
+    "target": "Sichel",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 335
+  },
+  {
+    "prime": "Sprecher",
+    "target": "Fraktion",
+    "timeout_soll": 850,
+    "timeout_ist": 880,
+    "response_time": 336
+  },
+  {
+    "prime": "Typ",
+    "target": "Diabetes",
+    "timeout_soll": 850,
+    "timeout_ist": 845,
+    "response_time": 432
+  },
+  {
+    "prime": "Tugend",
+    "target": "Pfad",
+    "timeout_soll": 50,
+    "timeout_ist": 96,
+    "response_time": 427
+  },
+  {
+    "prime": "Sammler",
+    "target": "Jäger",
+    "timeout_soll": 850,
+    "timeout_ist": 848,
+    "response_time": 160
+  },
+  {
+    "prime": "Kanne",
+    "target": "Finger",
+    "timeout_soll": 50,
+    "timeout_ist": 52,
+    "response_time": 474
+  },
+  {
+    "prime": "Omega",
+    "target": "Alpha",
+    "timeout_soll": 850,
+    "timeout_ist": 846,
+    "response_time": 295
+  },
+  {
+    "prime": "Geliebte",
+    "target": "Verehrer",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 376
+  },
+  {
+    "prime": "Reife",
+    "target": "Kanzler",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 442
+  },
+  {
+    "prime": "Druck",
+    "target": "Sache",
+    "timeout_soll": 850,
+    "timeout_ist": 845,
+    "response_time": 356
+  },
+  {
+    "prime": "Schwefel",
+    "target": "Pech",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 234
+  },
+  {
+    "prime": "Quartal",
+    "target": "Schlange",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 380
+  }
+]
+[
+  {
+    "prime": "Kamera",
+    "target": "Objektiv",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 1015
+  },
+  {
+    "prime": "Papst",
+    "target": "Kirche",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 681
+  },
+  {
+    "prime": "Heizung",
+    "target": "Lüftung",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 1202
+  },
+  {
+    "prime": "Franzose",
+    "target": "Spanier",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 1025
+  },
+  {
+    "prime": "Tugend",
+    "target": "Pfad",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 513
+  },
+  {
+    "prime": "Aspekt",
+    "target": "Faktor",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 1122
+  },
+  {
+    "prime": "Bahre",
+    "target": "Wiege",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 642
+  },
+  {
+    "prime": "Artikel",
+    "target": "Absatz",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 717
+  },
+  {
+    "prime": "Seife",
+    "target": "Kraut",
+    "timeout_soll": 50,
+    "timeout_ist": 54,
+    "response_time": 738
+  },
+  {
+    "prime": "Kanne",
+    "target": "Finger",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 408
+  },
+  {
+    "prime": "Chef",
+    "target": "Anwalt",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 729
+  },
+  {
+    "prime": "Kopf",
+    "target": "Schlinge",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 686
+  },
+  {
+    "prime": "Podest",
+    "target": "Podium",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 1001
+  },
+  {
+    "prime": "Trost",
+    "target": "Ausweg",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 532
+  },
+  {
+    "prime": "Stolz",
+    "target": "Ironie",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 630
+  },
+  {
+    "prime": "Omega",
+    "target": "Alpha",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 638
+  },
+  {
+    "prime": "Draht",
+    "target": "Hinsicht",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 954
+  },
+  {
+    "prime": "Datum",
+    "target": "Elch",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 1182
+  },
+  {
+    "prime": "Idol",
+    "target": "Vater",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 415
+  },
+  {
+    "prime": "Keks",
+    "target": "Tiefe",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 526
+  },
+  {
+    "prime": "Kabale",
+    "target": "Liebe",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 389
+  },
+  {
+    "prime": "Pfanne",
+    "target": "Lauch",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 873
+  }
+]
+[
+  {
+    "prime": "Schlager",
+    "target": "Jazz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 997
+  },
+  {
+    "prime": "Fahrer",
+    "target": "Auto",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 795
+  },
+  {
+    "prime": "Zug",
+    "target": "Gleis",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 702
+  },
+  {
+    "prime": "Rückkehr",
+    "target": "Exil",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 654
+  },
+  {
+    "prime": "Sprecher",
+    "target": "Fraktion",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 817
+  },
+  {
+    "prime": "Konzept",
+    "target": "Bild",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 1105
+  },
+  {
+    "prime": "Text",
+    "target": "Krimi",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 703
+  },
+  {
+    "prime": "Denker",
+    "target": "Lenker",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 860
+  },
+  {
+    "prime": "Kopf",
+    "target": "Schlinge",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 699
+  },
+  {
+    "prime": "Satz",
+    "target": "Umstand",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 776
+  },
+  {
+    "prime": "Idol",
+    "target": "Vater",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 907
+  },
+  {
+    "prime": "Anleihen",
+    "target": "Aktie",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 759
+  },
+  {
+    "prime": "Rentner",
+    "target": "Tabu",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 1161
+  },
+  {
+    "prime": "Metall",
+    "target": "Holz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 807
+  },
+  {
+    "prime": "Boot",
+    "target": "Bibel",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 768
+  },
+  {
+    "prime": "Stadion",
+    "target": "Flinte",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 562
+  },
+  {
+    "prime": "Schwefel",
+    "target": "Pech",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 778
+  },
+  {
+    "prime": "Trost",
+    "target": "Ausweg",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 844
+  },
+  {
+    "prime": "Kabale",
+    "target": "Liebe",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 616
+  },
+  {
+    "prime": "Vergehen",
+    "target": "Tötung",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 648
+  }
+]
+[
+  {
+    "prime": "Glied",
+    "target": "Kette",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 164
+  },
+  {
+    "prime": "Beratung",
+    "target": "Schulung",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 686
+  },
+  {
+    "prime": "Kilo",
+    "target": "Gewicht",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 411
+  },
+  {
+    "prime": "Risiko",
+    "target": "Höhe",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 461
+  },
+  {
+    "prime": "Schauer",
+    "target": "Rücken",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 570
+  },
+  {
+    "prime": "Pfanne",
+    "target": "Lauch",
+    "timeout_soll": 50,
+    "timeout_ist": 51,
+    "response_time": 214
+  },
+  {
+    "prime": "Pudel",
+    "target": "Kreis",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 328
+  },
+  {
+    "prime": "Ticket",
+    "target": "Sitz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 304
+  },
+  {
+    "prime": "Kälte",
+    "target": "Hunger",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 551
+  },
+  {
+    "prime": "Keks",
+    "target": "Tiefe",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 540
+  },
+  {
+    "prime": "Gloria",
+    "target": "Glanz",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 695
+  },
+  {
+    "prime": "Kanne",
+    "target": "Finger",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 175
+  },
+  {
+    "prime": "Sprecher",
+    "target": "Fraktion",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 366
+  },
+  {
+    "prime": "Kante",
+    "target": "Delikt",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 712
+  },
+  {
+    "prime": "Maschine",
+    "target": "Gondel",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 568
+  },
+  {
+    "prime": "Galgen",
+    "target": "Fischer",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 210
+  },
+  {
+    "prime": "Tür",
+    "target": "Pakt",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 791
+  },
+  {
+    "prime": "Erfolg",
+    "target": "Aussicht",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 444
+  },
+  {
+    "prime": "Zoo",
+    "target": "Anhalter",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 445
+  },
+  {
+    "prime": "Geliebte",
+    "target": "Verehrer",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 137
+  },
+  {
+    "prime": "Chef",
+    "target": "Anwalt",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 370
+  },
+  {
+    "prime": "Reis",
+    "target": "Schinken",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 416
+  },
+  {
+    "prime": "Praxis",
+    "target": "Arzt",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 710
+  },
+  {
+    "prime": "Ball",
+    "target": "Rache",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 352
+  }
+]
+[
+  {
+    "prime": "Verleger",
+    "target": "Autor",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 326
+  },
+  {
+    "prime": "Sender",
+    "target": "Radio",
+    "timeout_soll": 50,
+    "timeout_ist": 54,
+    "response_time": 321
+  },
+  {
+    "prime": "Malz",
+    "target": "Hopfen",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 445
+  },
+  {
+    "prime": "Zinn",
+    "target": "Kupfer",
+    "timeout_soll": 850,
+    "timeout_ist": 853,
+    "response_time": 365
+  },
+  {
+    "prime": "Mantel",
+    "target": "Hut",
+    "timeout_soll": 50,
+    "timeout_ist": 55,
+    "response_time": 304
+  },
+  {
+    "prime": "Schuh",
+    "target": "Manitu",
+    "timeout_soll": 850,
+    "timeout_ist": 853,
+    "response_time": 557
+  },
+  {
+    "prime": "Urkunde",
+    "target": "Klage",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 383
+  },
+  {
+    "prime": "Pudel",
+    "target": "Kreis",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 280
+  },
+  {
+    "prime": "Dichtung",
+    "target": "Wahrheit",
+    "timeout_soll": 850,
+    "timeout_ist": 853,
+    "response_time": 283
+  },
+  {
+    "prime": "Hose",
+    "target": "Robe",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 332
+  },
+  {
+    "prime": "Draht",
+    "target": "Hinsicht",
+    "timeout_soll": 850,
+    "timeout_ist": 855,
+    "response_time": 324
+  },
+  {
+    "prime": "Schaden",
+    "target": "Kosten",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 309
+  },
+  {
+    "prime": "Ruin",
+    "target": "Kollaps",
+    "timeout_soll": 50,
+    "timeout_ist": 59,
+    "response_time": 367
+  },
+  {
+    "prime": "Stock",
+    "target": "Stein",
+    "timeout_soll": 850,
+    "timeout_ist": 855,
+    "response_time": 273
+  },
+  {
+    "prime": "Stadion",
+    "target": "Flinte",
+    "timeout_soll": 850,
+    "timeout_ist": 854,
+    "response_time": 296
+  },
+  {
+    "prime": "Ansatz",
+    "target": "Schritt",
+    "timeout_soll": 50,
+    "timeout_ist": 51,
+    "response_time": 270
+  },
+  {
+    "prime": "Bäcker",
+    "target": "Metzger",
+    "timeout_soll": 850,
+    "timeout_ist": 856,
+    "response_time": 359
+  },
+  {
+    "prime": "Typ",
+    "target": "Diabetes",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 317
+  },
+  {
+    "prime": "Trost",
+    "target": "Ausweg",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 415
+  },
+  {
+    "prime": "Wähler",
+    "target": "Stimme",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 251
+  },
+  {
+    "prime": "Ärger",
+    "target": "Magnet",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 320
+  },
+  {
+    "prime": "Büro",
+    "target": "Abteil",
+    "timeout_soll": 850,
+    "timeout_ist": 853,
+    "response_time": 402
+  },
+  {
+    "prime": "Sammler",
+    "target": "Jäger",
+    "timeout_soll": 50,
+    "timeout_ist": 54,
+    "response_time": 303
+  },
+  {
+    "prime": "Chef",
+    "target": "Anwalt",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 395
+  },
+  {
+    "prime": "Ehe",
+    "target": "Schutz",
+    "timeout_soll": 50,
+    "timeout_ist": 58,
+    "response_time": 421
+  },
+  {
+    "prime": "Quartal",
+    "target": "Schlange",
+    "timeout_soll": 50,
+    "timeout_ist": 58,
+    "response_time": 551
+  },
+  {
+    "prime": "Boot",
+    "target": "Bibel",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 647
+  },
+  {
+    "prime": "Lob",
+    "target": "Kritik",
+    "timeout_soll": 850,
+    "timeout_ist": 848,
+    "response_time": 381
+  },
+  {
+    "prime": "Beleg",
+    "target": "Grund",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 419
+  }
+]
+[
+  {
+    "prime": "Keramik",
+    "target": "Glas",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 986
+  },
+  {
+    "prime": "Hüfte",
+    "target": "Knie",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 496
+  },
+  {
+    "prime": "Sender",
+    "target": "Radio",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 166
+  },
+  {
+    "prime": "Alibi",
+    "target": "Hof",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 704
+  },
+  {
+    "prime": "Prügel",
+    "target": "Tracht",
+    "timeout_soll": 50,
+    "timeout_ist": 51,
+    "response_time": 1008
+  },
+  {
+    "prime": "Indiz",
+    "target": "Signal",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 593
+  },
+  {
+    "prime": "Praxis",
+    "target": "Arzt",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 578
+  },
+  {
+    "prime": "Boot",
+    "target": "Bibel",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 638
+  },
+  {
+    "prime": "Bahre",
+    "target": "Wiege",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 587
+  },
+  {
+    "prime": "Reis",
+    "target": "Schinken",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 873
+  },
+  {
+    "prime": "Aspekt",
+    "target": "Faktor",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 792
+  },
+  {
+    "prime": "Figur",
+    "target": "Karton",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 1094
+  },
+  {
+    "prime": "Schalter",
+    "target": "Magazin",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 921
+  },
+  {
+    "prime": "Joghurt",
+    "target": "Zimt",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 749
+  },
+  {
+    "prime": "Ball",
+    "target": "Rache",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 565
+  },
+  {
+    "prime": "Tugend",
+    "target": "Pfad",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 556
+  },
+  {
+    "prime": "Judo",
+    "target": "Rugby",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 588
+  },
+  {
+    "prime": "Aula",
+    "target": "Schule",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 413
+  },
+  {
+    "prime": "Quartal",
+    "target": "Schlange",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 894
+  },
+  {
+    "prime": "Brenner",
+    "target": "Mühe",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 394
+  },
+  {
+    "prime": "Schwefel",
+    "target": "Pech",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 843
+  },
+  {
+    "prime": "Flut",
+    "target": "Ebbe",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 595
+  },
+  {
+    "prime": "Gelee",
+    "target": "Käse",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 474
+  },
+  {
+    "prime": "Ticket",
+    "target": "Sitz",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 428
+  }
+]
+[
+  {
+    "prime": "Schlager",
+    "target": "Jazz",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 81
+  },
+  {
+    "prime": "Datum",
+    "target": "Elch",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 764
+  },
+  {
+    "prime": "Seele",
+    "target": "Herz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 485
+  },
+  {
+    "prime": "Speicher",
+    "target": "Wischer",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 769
+  },
+  {
+    "prime": "Exempel",
+    "target": "Probe",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 745
+  },
+  {
+    "prime": "Sammler",
+    "target": "Jäger",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 428
+  },
+  {
+    "prime": "Konzept",
+    "target": "Bild",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 546
+  },
+  {
+    "prime": "Schauer",
+    "target": "Rücken",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 628
+  },
+  {
+    "prime": "Denker",
+    "target": "Lenker",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 617
+  },
+  {
+    "prime": "Bedenken",
+    "target": "Trotz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 607
+  },
+  {
+    "prime": "Logik",
+    "target": "Oma",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 1090
+  },
+  {
+    "prime": "Bahre",
+    "target": "Wiege",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 974
+  },
+  {
+    "prime": "Kanne",
+    "target": "Finger",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 1108
+  },
+  {
+    "prime": "Maschine",
+    "target": "Gondel",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 538
+  },
+  {
+    "prime": "Fehler",
+    "target": "Luft",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 438
+  },
+  {
+    "prime": "Skript",
+    "target": "Buch",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 580
+  },
+  {
+    "prime": "Treppe",
+    "target": "Ozon",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 1213
+  },
+  {
+    "prime": "Ohr",
+    "target": "Knopf",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 756
+  },
+  {
+    "prime": "Quartal",
+    "target": "Schlange",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 1164
+  },
+  {
+    "prime": "Sturm",
+    "target": "Drang",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 626
+  },
+  {
+    "prime": "Eile",
+    "target": "Vorsicht",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 696
+  },
+  {
+    "prime": "Trost",
+    "target": "Ausweg",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 820
+  }
+]
+[
+  {
+    "prime": "Kamera",
+    "target": "Objektiv",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 1025
+  },
+  {
+    "prime": "Kinn",
+    "target": "Gesicht",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 1086
+  },
+  {
+    "prime": "Gunst",
+    "target": "Stunde",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 521
+  },
+  {
+    "prime": "Schaden",
+    "target": "Kosten",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 394
+  },
+  {
+    "prime": "Schal",
+    "target": "Kragen",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 318
+  },
+  {
+    "prime": "Brenner",
+    "target": "Mühe",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 331
+  },
+  {
+    "prime": "Draht",
+    "target": "Hinsicht",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 194
+  },
+  {
+    "prime": "Gericht",
+    "target": "Recht",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 560
+  },
+  {
+    "prime": "Ohr",
+    "target": "Knopf",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 299
+  },
+  {
+    "prime": "Beleg",
+    "target": "Grund",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 513
+  },
+  {
+    "prime": "Rentner",
+    "target": "Tabu",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 391
+  },
+  {
+    "prime": "Richtung",
+    "target": "Spieler",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 459
+  },
+  {
+    "prime": "Omen",
+    "target": "Zeichen",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 425
+  },
+  {
+    "prime": "Tür",
+    "target": "Pakt",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 329
+  },
+  {
+    "prime": "Bäcker",
+    "target": "Metzger",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 463
+  },
+  {
+    "prime": "Fete",
+    "target": "Gala",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 262
+  },
+  {
+    "prime": "Omega",
+    "target": "Alpha",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 430
+  },
+  {
+    "prime": "Lohn",
+    "target": "Brot",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 618
+  },
+  {
+    "prime": "Konzept",
+    "target": "Bild",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 501
+  },
+  {
+    "prime": "Sammler",
+    "target": "Jäger",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 385
+  },
+  {
+    "prime": "Kante",
+    "target": "Delikt",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 368
+  },
+  {
+    "prime": "Schauer",
+    "target": "Rücken",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 213
+  },
+  {
+    "prime": "Bahre",
+    "target": "Wiege",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 227
+  },
+  {
+    "prime": "Prügel",
+    "target": "Tracht",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 250
+  },
+  {
+    "prime": "Maschine",
+    "target": "Gondel",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 186
+  }
+]
+[
+  {
+    "prime": "Banane",
+    "target": "Schale",
+    "timeout_soll": 850,
+    "timeout_ist": 852,
+    "response_time": 950
+  },
+  {
+    "prime": "Donner",
+    "target": "Blitz",
+    "timeout_soll": 850,
+    "timeout_ist": 852,
+    "response_time": 969
+  },
+  {
+    "prime": "Urteil",
+    "target": "Revision",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 942
+  },
+  {
+    "prime": "Phönix",
+    "target": "Asche",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 522
+  },
+  {
+    "prime": "Mittel",
+    "target": "Zweck",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 368
+  },
+  {
+    "prime": "Fete",
+    "target": "Gala",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 442
+  },
+  {
+    "prime": "Rückkehr",
+    "target": "Exil",
+    "timeout_soll": 850,
+    "timeout_ist": 852,
+    "response_time": 470
+  },
+  {
+    "prime": "Typ",
+    "target": "Diabetes",
+    "timeout_soll": 850,
+    "timeout_ist": 852,
+    "response_time": 614
+  },
+  {
+    "prime": "Buche",
+    "target": "Eiche",
+    "timeout_soll": 850,
+    "timeout_ist": 852,
+    "response_time": 351
+  },
+  {
+    "prime": "Trost",
+    "target": "Ausweg",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 464
+  },
+  {
+    "prime": "Beleg",
+    "target": "Grund",
+    "timeout_soll": 850,
+    "timeout_ist": 852,
+    "response_time": 375
+  },
+  {
+    "prime": "Gelee",
+    "target": "Käse",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 639
+  },
+  {
+    "prime": "Büro",
+    "target": "Abteil",
+    "timeout_soll": 850,
+    "timeout_ist": 852,
+    "response_time": 345
+  },
+  {
+    "prime": "Quartal",
+    "target": "Schlange",
+    "timeout_soll": 850,
+    "timeout_ist": 852,
+    "response_time": 227
+  },
+  {
+    "prime": "Gloria",
+    "target": "Glanz",
+    "timeout_soll": 850,
+    "timeout_ist": 852,
+    "response_time": 193
+  },
+  {
+    "prime": "Joghurt",
+    "target": "Zimt",
+    "timeout_soll": 850,
+    "timeout_ist": 852,
+    "response_time": 526
+  },
+  {
+    "prime": "Tafel",
+    "target": "Kreide",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 347
+  },
+  {
+    "prime": "Brenner",
+    "target": "Mühe",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 467
+  },
+  {
+    "prime": "Vorlage",
+    "target": "Stiel",
+    "timeout_soll": 850,
+    "timeout_ist": 852,
+    "response_time": 448
+  },
+  {
+    "prime": "Eigentum",
+    "target": "Rausch",
+    "timeout_soll": 850,
+    "timeout_ist": 852,
+    "response_time": 297
+  },
+  {
+    "prime": "Ball",
+    "target": "Rache",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 398
+  },
+  {
+    "prime": "Pfote",
+    "target": "Wange",
+    "timeout_soll": 850,
+    "timeout_ist": 852,
+    "response_time": 411
+  },
+  {
+    "prime": "Strich",
+    "target": "Faden",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 291
+  },
+  {
+    "prime": "Richtung",
+    "target": "Spieler",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 352
+  },
+  {
+    "prime": "Geschenk",
+    "target": "Erlebnis",
+    "timeout_soll": 850,
+    "timeout_ist": 852,
+    "response_time": 338
+  },
+  {
+    "prime": "Figur",
+    "target": "Karton",
+    "timeout_soll": 850,
+    "timeout_ist": 852,
+    "response_time": 399
+  }
+]
+[
+  {
+    "prime": "Risiko",
+    "target": "Höhe",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 819
+  },
+  {
+    "prime": "Denker",
+    "target": "Lenker",
+    "timeout_soll": 850,
+    "timeout_ist": 847,
+    "response_time": 105
+  },
+  {
+    "prime": "Erbe",
+    "target": "Ego",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 1274
+  }
+]
+[
+  {
+    "prime": "Zinn",
+    "target": "Kupfer",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 1152
+  },
+  {
+    "prime": "Banane",
+    "target": "Schale",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 1270
+  },
+  {
+    "prime": "Keramik",
+    "target": "Glas",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 28
+  },
+  {
+    "prime": "Rind",
+    "target": "Schwein",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 88
+  },
+  {
+    "prime": "Papst",
+    "target": "Kirche",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 517
+  },
+  {
+    "prime": "Glied",
+    "target": "Kette",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 596
+  },
+  {
+    "prime": "Hammer",
+    "target": "Sichel",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 462
+  },
+  {
+    "prime": "Logik",
+    "target": "Oma",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 535
+  },
+  {
+    "prime": "Urkunde",
+    "target": "Klage",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 597
+  },
+  {
+    "prime": "Zimmer",
+    "target": "Schwanz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 641
+  },
+  {
+    "prime": "Seele",
+    "target": "Herz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 854
+  },
+  {
+    "prime": "Pfote",
+    "target": "Wange",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 507
+  },
+  {
+    "prime": "Kabale",
+    "target": "Liebe",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 485
+  },
+  {
+    "prime": "Zeug",
+    "target": "Gefühl",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 804
+  },
+  {
+    "prime": "Bäcker",
+    "target": "Metzger",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 512
+  },
+  {
+    "prime": "Omen",
+    "target": "Zeichen",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 532
+  },
+  {
+    "prime": "Gloria",
+    "target": "Glanz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 580
+  },
+  {
+    "prime": "Rückkehr",
+    "target": "Exil",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 666
+  },
+  {
+    "prime": "Pudel",
+    "target": "Kreis",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 527
+  },
+  {
+    "prime": "Flut",
+    "target": "Ebbe",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 1105
+  },
+  {
+    "prime": "Virus",
+    "target": "Lawine",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 539
+  },
+  {
+    "prime": "Exempel",
+    "target": "Probe",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 549
+  },
+  {
+    "prime": "Indiz",
+    "target": "Signal",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 393
+  },
+  {
+    "prime": "Pfanne",
+    "target": "Lauch",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 453
+  },
+  {
+    "prime": "Brenner",
+    "target": "Mühe",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 600
+  },
+  {
+    "prime": "Kopf",
+    "target": "Schlinge",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 485
+  },
+  {
+    "prime": "Sprecher",
+    "target": "Fraktion",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 719
+  }
+]
+[
+  {
+    "prime": "Elend",
+    "target": "Not",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 688
+  },
+  {
+    "prime": "Logik",
+    "target": "Oma",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 317
+  },
+  {
+    "prime": "Speicher",
+    "target": "Wischer",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 120
+  },
+  {
+    "prime": "Pfote",
+    "target": "Wange",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 308
+  },
+  {
+    "prime": "Metall",
+    "target": "Holz",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 376
+  },
+  {
+    "prime": "Ruin",
+    "target": "Kollaps",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 131
+  },
+  {
+    "prime": "Leid",
+    "target": "Witz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 401
+  },
+  {
+    "prime": "Tugend",
+    "target": "Pfad",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 407
+  },
+  {
+    "prime": "Fabel",
+    "target": "Reich",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 291
+  },
+  {
+    "prime": "Rückkehr",
+    "target": "Exil",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 551
+  },
+  {
+    "prime": "Pudel",
+    "target": "Kreis",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 397
+  },
+  {
+    "prime": "Ehe",
+    "target": "Schutz",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 449
+  },
+  {
+    "prime": "Doping",
+    "target": "Kampf",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 684
+  },
+  {
+    "prime": "Maschine",
+    "target": "Gondel",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 442
+  },
+  {
+    "prime": "Seele",
+    "target": "Herz",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 393
+  },
+  {
+    "prime": "Gunst",
+    "target": "Stunde",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 1110
+  },
+  {
+    "prime": "Sumpf",
+    "target": "Strudel",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 358
+  },
+  {
+    "prime": "Geliebte",
+    "target": "Verehrer",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 426
+  },
+  {
+    "prime": "Klima",
+    "target": "Umwelt",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 335
+  },
+  {
+    "prime": "Draht",
+    "target": "Hinsicht",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 410
+  },
+  {
+    "prime": "Schluck",
+    "target": "Legende",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 439
+  },
+  {
+    "prime": "Mittel",
+    "target": "Zweck",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 333
+  },
+  {
+    "prime": "Knabe",
+    "target": "Junge",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 70
+  }
+]
+[
+  {
+    "prime": "Tisch",
+    "target": "Stuhl",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 418
+  },
+  {
+    "prime": "Hüfte",
+    "target": "Knie",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 524
+  },
+  {
+    "prime": "Haar",
+    "target": "Gel",
+    "timeout_soll": 50,
+    "timeout_ist": 52,
+    "response_time": 487
+  },
+  {
+    "prime": "Keks",
+    "target": "Tiefe",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 626
+  },
+  {
+    "prime": "Klima",
+    "target": "Umwelt",
+    "timeout_soll": 50,
+    "timeout_ist": 54,
+    "response_time": 528
+  },
+  {
+    "prime": "Konzept",
+    "target": "Bild",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 625
+  },
+  {
+    "prime": "Skala",
+    "target": "Spanne",
+    "timeout_soll": 50,
+    "timeout_ist": 48,
+    "response_time": 874
+  },
+  {
+    "prime": "Dichtung",
+    "target": "Wahrheit",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 577
+  },
+  {
+    "prime": "Speicher",
+    "target": "Wischer",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 753
+  },
+  {
+    "prime": "Ausdauer",
+    "target": "Kraft",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 611
+  },
+  {
+    "prime": "Typ",
+    "target": "Diabetes",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 587
+  },
+  {
+    "prime": "Chef",
+    "target": "Anwalt",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 646
+  },
+  {
+    "prime": "Schluck",
+    "target": "Legende",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 481
+  },
+  {
+    "prime": "Aspekt",
+    "target": "Faktor",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 581
+  },
+  {
+    "prime": "Risiko",
+    "target": "Höhe",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 560
+  },
+  {
+    "prime": "Schalter",
+    "target": "Magazin",
+    "timeout_soll": 50,
+    "timeout_ist": 51,
+    "response_time": 508
+  },
+  {
+    "prime": "Ansatz",
+    "target": "Schritt",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 436
+  },
+  {
+    "prime": "Rückkehr",
+    "target": "Exil",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 461
+  },
+  {
+    "prime": "Strich",
+    "target": "Faden",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 494
+  },
+  {
+    "prime": "Bäcker",
+    "target": "Metzger",
+    "timeout_soll": 50,
+    "timeout_ist": 51,
+    "response_time": 557
+  },
+  {
+    "prime": "Neugier",
+    "target": "Hingabe",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 643
+  },
+  {
+    "prime": "Schuh",
+    "target": "Manitu",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 664
+  },
+  {
+    "prime": "Eimer",
+    "target": "Koffer",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 540
+  },
+  {
+    "prime": "Logik",
+    "target": "Oma",
+    "timeout_soll": 50,
+    "timeout_ist": 51,
+    "response_time": 497
+  },
+  {
+    "prime": "Lohn",
+    "target": "Brot",
+    "timeout_soll": 50,
+    "timeout_ist": 52,
+    "response_time": 708
+  },
+  {
+    "prime": "Galgen",
+    "target": "Fischer",
+    "timeout_soll": 50,
+    "timeout_ist": 52,
+    "response_time": 643
+  },
+  {
+    "prime": "Alibi",
+    "target": "Hof",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 558
+  },
+  {
+    "prime": "Beleg",
+    "target": "Grund",
+    "timeout_soll": 50,
+    "timeout_ist": 48,
+    "response_time": 1206
+  },
+  {
+    "prime": "Figur",
+    "target": "Karton",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 593
+  },
+  {
+    "prime": "Podest",
+    "target": "Podium",
+    "timeout_soll": 50,
+    "timeout_ist": 55,
+    "response_time": 821
+  },
+  {
+    "prime": "Lob",
+    "target": "Kritik",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 564
+  },
+  {
+    "prime": "Seife",
+    "target": "Kraut",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 593
+  }
+]
+[
+  {
+    "prime": "Sturm",
+    "target": "Drang",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 528
+  }
+]
+[
+  {
+    "prime": "Beruf",
+    "target": "Hobby",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 518
+  },
+  {
+    "prime": "Verleger",
+    "target": "Autor",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 319
+  },
+  {
+    "prime": "Wut",
+    "target": "Trauer",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 545
+  },
+  {
+    "prime": "Fahrer",
+    "target": "Auto",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 436
+  },
+  {
+    "prime": "Banane",
+    "target": "Schale",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 440
+  },
+  {
+    "prime": "Schluck",
+    "target": "Legende",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 461
+  },
+  {
+    "prime": "Aula",
+    "target": "Schule",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 485
+  },
+  {
+    "prime": "Kanne",
+    "target": "Finger",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 358
+  },
+  {
+    "prime": "Brenner",
+    "target": "Mühe",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 233
+  },
+  {
+    "prime": "Virus",
+    "target": "Lawine",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 613
+  },
+  {
+    "prime": "Bäcker",
+    "target": "Metzger",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 439
+  },
+  {
+    "prime": "Geliebte",
+    "target": "Verehrer",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 231
+  },
+  {
+    "prime": "Idol",
+    "target": "Vater",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 706
+  },
+  {
+    "prime": "Ausdauer",
+    "target": "Kraft",
+    "timeout_soll": 50,
+    "timeout_ist": 48,
+    "response_time": 416
+  },
+  {
+    "prime": "Pudel",
+    "target": "Kreis",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 363
+  },
+  {
+    "prime": "Mangel",
+    "target": "Bär",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 314
+  },
+  {
+    "prime": "Konzern",
+    "target": "Etat",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 583
+  },
+  {
+    "prime": "Schaden",
+    "target": "Kosten",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 414
+  },
+  {
+    "prime": "Bahre",
+    "target": "Wiege",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 453
+  },
+  {
+    "prime": "Putz",
+    "target": "Schnabel",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 442
+  },
+  {
+    "prime": "Ruin",
+    "target": "Kollaps",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 279
+  },
+  {
+    "prime": "Kante",
+    "target": "Delikt",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 441
+  },
+  {
+    "prime": "Fehler",
+    "target": "Luft",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 1043
+  },
+  {
+    "prime": "Zimmer",
+    "target": "Schwanz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 281
+  },
+  {
+    "prime": "Geschenk",
+    "target": "Erlebnis",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 470
+  },
+  {
+    "prime": "Schauer",
+    "target": "Rücken",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 441
+  },
+  {
+    "prime": "Buche",
+    "target": "Eiche",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 416
+  },
+  {
+    "prime": "Ehe",
+    "target": "Schutz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 476
+  },
+  {
+    "prime": "Satz",
+    "target": "Umstand",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 324
+  },
+  {
+    "prime": "Kuh",
+    "target": "Eis",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 160
+  },
+  {
+    "prime": "Denker",
+    "target": "Lenker",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 439
+  },
+  {
+    "prime": "Artikel",
+    "target": "Absatz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 248
+  },
+  {
+    "prime": "Bedenken",
+    "target": "Trotz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 238
+  }
+]
+[
+  {
+    "prime": "Konzert",
+    "target": "Chor",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 833
+  },
+  {
+    "prime": "Studium",
+    "target": "Lehre",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 745
+  },
+  {
+    "prime": "Keramik",
+    "target": "Glas",
+    "timeout_soll": 50,
+    "timeout_ist": 53,
+    "response_time": 635
+  },
+  {
+    "prime": "Satz",
+    "target": "Umstand",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 535
+  },
+  {
+    "prime": "Freund",
+    "target": "Nazi",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 696
+  },
+  {
+    "prime": "Ansatz",
+    "target": "Schritt",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 443
+  },
+  {
+    "prime": "Ball",
+    "target": "Rache",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 647
+  },
+  {
+    "prime": "Virus",
+    "target": "Lawine",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 713
+  },
+  {
+    "prime": "Alibi",
+    "target": "Hof",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 915
+  },
+  {
+    "prime": "Phönix",
+    "target": "Asche",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 568
+  },
+  {
+    "prime": "Ecke",
+    "target": "Wille",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 457
+  },
+  {
+    "prime": "Dichtung",
+    "target": "Wahrheit",
+    "timeout_soll": 50,
+    "timeout_ist": 51,
+    "response_time": 447
+  },
+  {
+    "prime": "Sumpf",
+    "target": "Strudel",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 449
+  },
+  {
+    "prime": "Ehe",
+    "target": "Schutz",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 501
+  },
+  {
+    "prime": "Hose",
+    "target": "Robe",
+    "timeout_soll": 850,
+    "timeout_ist": 863,
+    "response_time": 587
+  },
+  {
+    "prime": "Putz",
+    "target": "Schnabel",
+    "timeout_soll": 50,
+    "timeout_ist": 52,
+    "response_time": 453
+  },
+  {
+    "prime": "Podest",
+    "target": "Podium",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 454
+  },
+  {
+    "prime": "Konzern",
+    "target": "Etat",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 942
+  },
+  {
+    "prime": "Farbe",
+    "target": "Ufer",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 492
+  },
+  {
+    "prime": "Gestalt",
+    "target": "Statur",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 527
+  },
+  {
+    "prime": "Ärger",
+    "target": "Magnet",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 692
+  },
+  {
+    "prime": "Urkunde",
+    "target": "Klage",
+    "timeout_soll": 50,
+    "timeout_ist": 51,
+    "response_time": 544
+  },
+  {
+    "prime": "Klo",
+    "target": "Sofa",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 435
+  },
+  {
+    "prime": "Praxis",
+    "target": "Arzt",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 434
+  }
+]
+[
+  {
+    "prime": "Mantel",
+    "target": "Hut",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 161
+  },
+  {
+    "prime": "Wut",
+    "target": "Trauer",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 1157
+  },
+  {
+    "prime": "Verleger",
+    "target": "Autor",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 1346
+  },
+  {
+    "prime": "Urteil",
+    "target": "Revision",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 835
+  },
+  {
+    "prime": "Wähler",
+    "target": "Stimme",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 806
+  },
+  {
+    "prime": "Schwefel",
+    "target": "Pech",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 873
+  },
+  {
+    "prime": "Konzept",
+    "target": "Bild",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 508
+  },
+  {
+    "prime": "Schal",
+    "target": "Kragen",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 429
+  },
+  {
+    "prime": "Anleihen",
+    "target": "Aktie",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 616
+  },
+  {
+    "prime": "Seele",
+    "target": "Herz",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 353
+  },
+  {
+    "prime": "Sammler",
+    "target": "Jäger",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 497
+  },
+  {
+    "prime": "Richtung",
+    "target": "Spieler",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 444
+  },
+  {
+    "prime": "Mittel",
+    "target": "Zweck",
+    "timeout_soll": 850,
+    "timeout_ist": 849,
+    "response_time": 605
+  },
+  {
+    "prime": "Leid",
+    "target": "Witz",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 394
+  },
+  {
+    "prime": "Keks",
+    "target": "Tiefe",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 463
+  },
+  {
+    "prime": "Flut",
+    "target": "Ebbe",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 589
+  },
+  {
+    "prime": "Radar",
+    "target": "Verlauf",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 465
+  },
+  {
+    "prime": "Satz",
+    "target": "Umstand",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 667
+  },
+  {
+    "prime": "Putz",
+    "target": "Schnabel",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 502
+  },
+  {
+    "prime": "Zeug",
+    "target": "Gefühl",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 670
+  },
+  {
+    "prime": "Baum",
+    "target": "Laster",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 479
+  },
+  {
+    "prime": "Trost",
+    "target": "Ausweg",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 348
+  },
+  {
+    "prime": "Sieger",
+    "target": "Jury",
+    "timeout_soll": 50,
+    "timeout_ist": 49,
+    "response_time": 688
+  },
+  {
+    "prime": "Urkunde",
+    "target": "Klage",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 679
+  },
+  {
+    "prime": "Figur",
+    "target": "Karton",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 695
+  },
+  {
+    "prime": "Gelee",
+    "target": "Käse",
+    "timeout_soll": 850,
+    "timeout_ist": 851,
+    "response_time": 159
+  },
+  {
+    "prime": "Dauer",
+    "target": "Hysterie",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 527
+  },
+  {
+    "prime": "Quartal",
+    "target": "Schlange",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 732
+  },
+  {
+    "prime": "Detail",
+    "target": "Teufel",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 377
+  },
+  {
+    "prime": "Iris",
+    "target": "Takt",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 338
+  }
+]
+[
+  {
+    "prime": "Elend",
+    "target": "Not",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 428
+  },
+  {
+    "prime": "Lärm",
+    "target": "Anwohner",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 452
+  },
+  {
+    "prime": "Verleger",
+    "target": "Autor",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 333
+  },
+  {
+    "prime": "Bahre",
+    "target": "Wiege",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 407
+  },
+  {
+    "prime": "Glück",
+    "target": "Essen",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 365
+  },
+  {
+    "prime": "Putz",
+    "target": "Schnabel",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 248
+  },
+  {
+    "prime": "Doping",
+    "target": "Kampf",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 283
+  },
+  {
+    "prime": "Ecke",
+    "target": "Wille",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 282
+  },
+  {
+    "prime": "Phönix",
+    "target": "Asche",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 533
+  },
+  {
+    "prime": "Büro",
+    "target": "Abteil",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 427
+  },
+  {
+    "prime": "Neugier",
+    "target": "Hingabe",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 228
+  },
+  {
+    "prime": "Schwefel",
+    "target": "Pech",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 292
+  },
+  {
+    "prime": "Figur",
+    "target": "Karton",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 359
+  },
+  {
+    "prime": "Schauer",
+    "target": "Rücken",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 292
+  },
+  {
+    "prime": "Sieger",
+    "target": "Jury",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 392
+  },
+  {
+    "prime": "Draht",
+    "target": "Hinsicht",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 461
+  },
+  {
+    "prime": "Konzern",
+    "target": "Etat",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 531
+  },
+  {
+    "prime": "Reis",
+    "target": "Schinken",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 261
+  },
+  {
+    "prime": "Deich",
+    "target": "Zaun",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 253
+  },
+  {
+    "prime": "Zeug",
+    "target": "Gefühl",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 380
+  },
+  {
+    "prime": "Strich",
+    "target": "Faden",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 359
+  },
+  {
+    "prime": "Eigentum",
+    "target": "Rausch",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 406
+  },
+  {
+    "prime": "Stadion",
+    "target": "Flinte",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 412
+  },
+  {
+    "prime": "Chef",
+    "target": "Anwalt",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 306
+  },
+  {
+    "prime": "Satz",
+    "target": "Umstand",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 341
+  },
+  {
+    "prime": "Schalter",
+    "target": "Magazin",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 310
+  },
+  {
+    "prime": "Wähler",
+    "target": "Stimme",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 258
+  },
+  {
+    "prime": "Mangel",
+    "target": "Bär",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 368
+  },
+  {
+    "prime": "Pfote",
+    "target": "Wange",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 351
+  }
+]
+[
+  {
+    "prime": "Sender",
+    "target": "Radio",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 820
+  },
+  {
+    "prime": "Kamera",
+    "target": "Objektiv",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 618
+  },
+  {
+    "prime": "Artikel",
+    "target": "Absatz",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 459
+  },
+  {
+    "prime": "Pfanne",
+    "target": "Lauch",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 554
+  },
+  {
+    "prime": "Freund",
+    "target": "Nazi",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 911
+  },
+  {
+    "prime": "Klima",
+    "target": "Umwelt",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 510
+  },
+  {
+    "prime": "Reis",
+    "target": "Schinken",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 597
+  },
+  {
+    "prime": "Rückkehr",
+    "target": "Exil",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 413
+  },
+  {
+    "prime": "Deich",
+    "target": "Zaun",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 506
+  },
+  {
+    "prime": "Urkunde",
+    "target": "Klage",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 378
+  },
+  {
+    "prime": "Reife",
+    "target": "Kanzler",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 504
+  },
+  {
+    "prime": "Gestalt",
+    "target": "Statur",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 986
+  },
+  {
+    "prime": "Podest",
+    "target": "Podium",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 372
+  },
+  {
+    "prime": "Büro",
+    "target": "Abteil",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 605
+  },
+  {
+    "prime": "Putz",
+    "target": "Schnabel",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 536
+  },
+  {
+    "prime": "Geschenk",
+    "target": "Erlebnis",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 435
+  },
+  {
+    "prime": "Aspekt",
+    "target": "Faktor",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 262
+  },
+  {
+    "prime": "Skript",
+    "target": "Buch",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 355
+  },
+  {
+    "prime": "Richtung",
+    "target": "Spieler",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 835
+  },
+  {
+    "prime": "Kälte",
+    "target": "Hunger",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 530
+  },
+  {
+    "prime": "Glück",
+    "target": "Essen",
+    "timeout_soll": 850,
+    "timeout_ist": 850,
+    "response_time": 373
+  },
+  {
+    "prime": "Omega",
+    "target": "Alpha",
+    "timeout_soll": 50,
+    "timeout_ist": 50,
+    "response_time": 472
+  }
+]

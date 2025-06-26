@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "prime": {
+        "type": "string",
+        "examples": [
+          "Beratung",
+          "Konzert",
+          "Kinn"
+        ]
+      },
+      "target": {
+        "type": "string",
+        "examples": [
+          "Schulung",
+          "Chor",
+          "Gesicht"
+        ]
+      },
+      "timeout_soll": {
+        "type": "integer",
+        "examples": [
+          850,
+          50
+        ]
+      },
+      "timeout_ist": {
+        "anyOf": [
+          {
+            "type": "number",
+            "examples": [
+              849.8000000000029,
+              850.9000000000015,
+              850.0999999999913
+            ]
+          },
+          {
+            "type": "integer",
+            "examples": [
+              849,
+              51,
+              850
+            ]
+          }
+        ]
+      },
+      "response_time": {
+        "type": "number",
+        "examples": [
+          419.1999999999971,
+          355.199999999626,
+          486.59999999962747
+        ]
+      }
+    }
+  }
+}
