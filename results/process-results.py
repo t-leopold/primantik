@@ -3,7 +3,7 @@ from collections import defaultdict
 from typing import cast
 
 type RawValue = str | int | float | bool
-type ProValue = str | int
+type ProValue = str | int | bool
 
 input_file: str = 'results-raw.txt'
 output_file: str = 'results-processed.txt'
@@ -16,6 +16,7 @@ keys_to_keep_isi: dict[str, list[str]] = {
 }
 keys_to_keep_dec: dict[str, list[str]] = {
     'sender_id' : ['sender_id', 'str'],
+    'correct' : ['correct', 'bool'],
     'duration' : ['response_time', 'num']
 }
 
@@ -23,8 +24,6 @@ def truncate_sender_id(sender_id: str) -> str:
     return '_'.join(sender_id.split('_')[:-1])
 
 def test_dict(obj: dict[str, RawValue]) -> bool:
-    if obj.get('sender') == 'Decision' and obj.get('correct') != True:
-        return False
     return obj.get('sender') in ('Isi', 'Decision') and obj.get('condition') == 'w'
 
 def reduce_obj(obj: dict[str, RawValue]) -> dict[str, ProValue]:
@@ -32,7 +31,8 @@ def reduce_obj(obj: dict[str, RawValue]) -> dict[str, ProValue]:
     reduced_obj_str: dict[str, str] = {v[0]: cast(str, obj[k]) for k, v in keys_to_keep.items() if v[1] == 'str'}
     reduced_obj_str['sender_id'] = truncate_sender_id(cast(str, obj['sender_id']))
     reduced_obj_num: dict[str, int] = {v[0]: round(cast(float, obj[k])) for k, v in keys_to_keep.items() if v[1] == 'num'}
-    return {**reduced_obj_str, **reduced_obj_num}
+    reduced_obj_bool: dict[str, bool] = {v[0]: cast(bool, obj.get(k, False)) for k, v in keys_to_keep.items() if v[1] == 'bool'}
+    return {**reduced_obj_str, **reduced_obj_num, **reduced_obj_bool}
 
 with open(input_file, 'r', encoding='utf-8') as infile, open(output_file, 'w', encoding='utf-8') as outfile:
     for line_number, line in enumerate(infile, 1):
