@@ -1,5 +1,30 @@
 # Primantik: Priming-Experiment
 
+## Analyse
+
+Das Verzeichnis `analysis` enthält das Skript zur Erzeugung von Grafiken `visualise_results.py` sowie jenes zur statistischen Analyse `analyse_results.py`. Bei der statistischen Analyse werden die Wortpaare bestehend aus Prime und Target der aufgearbeiten Ergebnisse ergänzt um die Information der Beziehung zwischen Prime und Target (assoziativ, semantisch, keine) mittels der Datei `conditions-experiment.csv`.
+
+## Ergebnisse
+
+Im Verzeichnis `results` finden sich die unverarbeiteten Ergebnisse von JATOS in der Datei `results-raw.txt`, wobei jede Zeile die Ergebnisse einer Versuchsperson im JSON-Format hält. Die für die Analyse aufbereiteten Ergebnisse sind in der Datei `results-processed.txt` festgehalten. Für beide Dateien liegt eine JSON-Schema-Datei bei, die für jeweils einen Datensatz das Format spezifiziert.
+
+Das Skript `process_results.py` bereitet die Daten aus `results-raw.txt` auf und erzeugt `results-processed.txt`. Es besteht die Möglichkeit die Ergebnisse in leicht lesbarer Form auszugeben (Variable `pretty_print`). Für die Analyse sollte allerdings die kompakte Darstellung gewählt werden, da bei dieser in jeder Zeile ein eigener Datensatz steht.
+
+## Python set-up
+
+Um die Analyse in Python durchzuführen, werden ein paar Bibliotheken benötigt. Diese werden am besten in einer virtuellen Umgebung installiert. Dazu kann im Verzeichnis des Repo eine solche angelegt werden und die benötigten Pakete mittels Pip installiert werden:
+
+```
+python3 -m venv .
+python3 -m pip install pandas
+python3 -m pip install scipy==1.15.3
+python3 -m pip install statsmodels
+python3 -m pip install seaborn
+```
+
+> [!IMPORTANT]  
+> Statsmodels version 0.14.4 only works with SciPy version <= 1.15.3 since it relies on `_lazywhere` which was removed in newer versions of SciPy.
+
 ## Implementierung mit lab.js
 
 Die Projektdatei `primantik.study.json` reicht aus, um das Experiment im lab.js-Builder zu rekonstruieren. Dort kann man sich das Experiment im geeigneten Format exportieren lassen, um es auf JATOS laufen zu lassen.

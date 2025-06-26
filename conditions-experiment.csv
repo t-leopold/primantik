@@ -1,0 +1,301 @@
+﻿condition,prime,target
+Associative,Schwefel,Pech
+Associative,Kälte,Hunger
+Associative,Rückkehr,Exil
+Associative,Bedenken,Trotz
+Associative,Buche,Eiche
+Associative,Denker,Lenker
+Associative,Gloria,Glanz
+Associative,Mittel,Zweck
+Associative,Sammler,Jäger
+Associative,Aula,Schule
+Associative,Prügel,Tracht
+Associative,Fabel,Reich
+Associative,Flut,Ebbe
+Associative,Strich,Faden
+Associative,Detail,Teufel
+Associative,Stock,Stein
+Associative,Gunst,Stunde
+Associative,Omega,Alpha
+Associative,Wähler,Stimme
+Associative,Seele,Herz
+Associative,Kabale,Liebe
+Associative,Artikel,Absatz
+Associative,Typ,Diabetes
+Associative,Sieger,Jury
+Associative,Sprecher,Fraktion
+Associative,Ausdauer,Kraft
+Associative,Tafel,Kreide
+Associative,Schauer,Rücken
+Associative,Sturm,Drang
+Associative,Klima,Umwelt
+Associative,Ohr,Knopf
+Associative,Hammer,Sichel
+Associative,Praxis,Arzt
+Associative,Erfolg,Aussicht
+Associative,Lohn,Brot
+Associative,Bäcker,Metzger
+Associative,Metall,Holz
+Associative,Ehe,Schutz
+Associative,Kopf,Schlinge
+Associative,Lob,Kritik
+Associative,Bahre,Wiege
+Associative,Gericht,Recht
+Associative,Messer,Gabel
+Associative,Exempel,Probe
+Associative,Tugend,Pfad
+Associative,Doping,Kampf
+Associative,Dichtung,Wahrheit
+Associative,Schuh,Manitu
+Associative,Kuh,Eis
+Associative,Phönix,Asche
+Semantic,Vergehen,Tötung
+Semantic,Ansatz,Schritt
+Semantic,Indiz,Signal
+Semantic,Joghurt,Zimt
+Semantic,Schal,Kragen
+Semantic,Idol,Vater
+Semantic,Schaden,Kosten
+Semantic,Sekt,Whiskey
+Semantic,Büro,Abteil
+Semantic,Gestalt,Statur
+Semantic,Hals,Dolch
+Semantic,Maschine,Gondel
+Semantic,Podest,Podium
+Semantic,Chef,Anwalt
+Semantic,Baum,Laster
+Semantic,Knabe,Junge
+Semantic,Pfote,Wange
+Semantic,Fete,Gala
+Semantic,Eimer,Koffer
+Semantic,Omen,Zeichen
+Semantic,Deich,Zaun
+Semantic,Ruin,Kollaps
+Semantic,Skala,Spanne
+Semantic,Eile,Vorsicht
+Semantic,Neugier,Hingabe
+Semantic,Stolz,Ironie
+Semantic,Freund,Nazi
+Semantic,Zoo,Anhalter
+Semantic,Beleg,Grund
+Semantic,Zettel,Schild
+Semantic,Ziel,Anliegen
+Semantic,Geliebte,Verehrer
+Semantic,Geschenk,Erlebnis
+Semantic,Aspekt,Faktor
+Semantic,Konzern,Etat
+Semantic,Sumpf,Strudel
+Semantic,Hose,Robe
+Semantic,Zeug,Gefühl
+Semantic,Text,Krimi
+Semantic,Satz,Umstand
+Semantic,Trost,Ausweg
+Semantic,Pfanne,Lauch
+Semantic,Konzept,Bild
+Semantic,Erbe,Ego
+Semantic,Skript,Buch
+Semantic,Gelee,Käse
+Semantic,Judo,Rugby
+Semantic,Anleihen,Aktie
+Semantic,Klo,Sofa
+Semantic,Reis,Schinken
+Unrelated,Alibi,Hof
+Unrelated,Dauer,Hysterie
+Unrelated,Boot,Bibel
+Unrelated,Eigentum,Rausch
+Unrelated,Fehler,Luft
+Unrelated,Galgen,Fischer
+Unrelated,Ball,Rache
+Unrelated,Brenner,Mühe
+Unrelated,Sex,Gulasch
+Unrelated,Logik,Oma
+Unrelated,Mangel,Bär
+Unrelated,Tür,Pakt
+Unrelated,Farbe,Ufer
+Unrelated,Rentner,Tabu
+Unrelated,Ecke,Wille
+Unrelated,Keks,Tiefe
+Unrelated,Kanne,Finger
+Unrelated,Seife,Kraut
+Unrelated,Richtung,Spieler
+Unrelated,Vorlage,Stiel
+Unrelated,Stadion,Flinte
+Unrelated,Siegel,Gattung
+Unrelated,Draht,Hinsicht
+Unrelated,Glück,Essen
+Unrelated,Schalter,Magazin
+Unrelated,Schluck,Legende
+Unrelated,Urkunde,Klage
+Unrelated,Putz,Schnabel
+Unrelated,Speicher,Wischer
+Unrelated,Quartal,Schlange
+Unrelated,Ärger,Magnet
+Unrelated,Nutzen,Entwurf
+Unrelated,Radar,Verlauf
+Unrelated,Zimmer,Schwanz
+Unrelated,Datum,Elch
+Unrelated,Kolben,Labor
+Unrelated,Reife,Kanzler
+Unrelated,Virus,Lawine
+Unrelated,Rechnung,Intrige
+Unrelated,Leid,Witz
+Unrelated,Druck,Sache
+Unrelated,Risiko,Höhe
+Unrelated,Iris,Takt
+Unrelated,Ort,Pfosten
+Unrelated,Pudel,Kreis
+Unrelated,Ticket,Sitz
+Unrelated,Treppe,Ozon
+Unrelated,Figur,Karton
+Unrelated,Kante,Delikt
+Unrelated,Erz,Verband
+Pronouncable Nonword Target,Bastard,Edo
+Pronouncable Nonword Target,Richter,Anwopfer
+Pronouncable Nonword Target,Kapitel,Aufwag
+Pronouncable Nonword Target,Schulter,Räwision
+Pronouncable Nonword Target,Fackel,Käscher
+Pronouncable Nonword Target,Team,Dolgt
+Pronouncable Nonword Target,Frist,Erlegris
+Pronouncable Nonword Target,Chronik,Nohre
+Pronouncable Nonword Target,Graben,Erren
+Pronouncable Nonword Target,Harfe,Körung
+Pronouncable Nonword Target,Referenz,Sips
+Pronouncable Nonword Target,Ertrag,Mofi
+Pronouncable Nonword Target,Rüstung,Nänker
+Pronouncable Nonword Target,Lichtung,Tagavin
+Pronouncable Nonword Target,Nahrung,Honrabe
+Pronouncable Nonword Target,Duo,Gezycht
+Pronouncable Nonword Target,Brei,Kolloks
+Pronouncable Nonword Target,Inferno,Barrung
+Pronouncable Nonword Target,Husten,Zazo
+Pronouncable Nonword Target,Gruppe,Ima
+Pronouncable Nonword Target,Plus,Junser
+Pronouncable Nonword Target,Suche,Hep
+Pronouncable Nonword Target,Chaos,Esfe
+Pronouncable Nonword Target,Golf,Schatung
+Pronouncable Nonword Target,Burg,Hebbü
+Pronouncable Nonword Target,Perle,Schola
+Pronouncable Nonword Target,Kammer,Fuby
+Pronouncable Nonword Target,Atom,Hoks
+Pronouncable Nonword Target,Mörder,Möhne
+Pronouncable Nonword Target,Debatte,Schilz
+Pronouncable Nonword Target,Ordner,Prot
+Pronouncable Nonword Target,Zeh,Rusry
+Pronouncable Nonword Target,Kunst,Verarrer
+Pronouncable Nonword Target,Dom,Grafd
+Pronouncable Nonword Target,Dusche,Sprusel
+Pronouncable Nonword Target,Ausgang,Kries
+Pronouncable Nonword Target,Zylinder,Ejol
+Pronouncable Nonword Target,Nerv,Siese
+Pronouncable Nonword Target,Igel,Liche
+Pronouncable Nonword Target,Jenseits,Trieer
+Pronouncable Nonword Target,Marsch,Jüges
+Pronouncable Nonword Target,Schwamm,Phasten
+Pronouncable Nonword Target,Ampel,Inbrage
+Pronouncable Nonword Target,Flieger,Eit
+Pronouncable Nonword Target,Schlamm,Nebtut
+Pronouncable Nonword Target,Karriere,Prie
+Pronouncable Nonword Target,Pickel,Pabem
+Pronouncable Nonword Target,Insel,Plase
+Pronouncable Nonword Target,Armee,Stürge
+Pronouncable Nonword Target,Feld,Lates
+Pronouncable Nonword Target,Gaul,Tahl
+Pronouncable Nonword Target,Hummer,Doasetes
+Pronouncable Nonword Target,Hemd,Breise
+Pronouncable Nonword Target,Schmuck,Kartler
+Pronouncable Nonword Target,Stil,Henfung
+Pronouncable Nonword Target,Vorlauf,Dinker
+Pronouncable Nonword Target,Echo,Gammung
+Pronouncable Nonword Target,Ingwer,Mocken
+Pronouncable Nonword Target,Helm,Zohne
+Pronouncable Nonword Target,Hotel,Queck
+Pronouncable Nonword Target,Bewegung,Atot
+Pronouncable Nonword Target,Charme,Anteel
+Pronouncable Nonword Target,Ahorn,Aume
+Pronouncable Nonword Target,Rum,Blaktion
+Pronouncable Nonword Target,Schlacht,Clor
+Pronouncable Nonword Target,Strom,Blente
+Pronouncable Nonword Target,Kerze,Olkofol
+Pronouncable Nonword Target,Bad,Jot
+Pronouncable Nonword Target,Laune,Blats
+Pronouncable Nonword Target,Gedicht,Pastes
+Pronouncable Nonword Target,Geruch,Läde
+Pronouncable Nonword Target,Club,Gossel
+Pronouncable Nonword Target,Oper,Coche
+Pronouncable Nonword Target,Gehirn,Anligeen
+Pronouncable Nonword Target,Stellung,Schwabem
+Unpronouncable Nonword Target,Frost,Gartfg
+Unpronouncable Nonword Target,Kohl,Fuat
+Unpronouncable Nonword Target,Toleranz,Xrzd
+Unpronouncable Nonword Target,Los,Rnkt
+Unpronouncable Nonword Target,Ikone,Eickf
+Unpronouncable Nonword Target,Wendung,Htimne
+Unpronouncable Nonword Target,Klon,Ltial
+Unpronouncable Nonword Target,Ritter,Spwl
+Unpronouncable Nonword Target,Jaguar,Mlans
+Unpronouncable Nonword Target,Rutsche,Txbtz
+Unpronouncable Nonword Target,Geiz,Poofer
+Unpronouncable Nonword Target,Zauberei,Oegikt
+Unpronouncable Nonword Target,Diva,Priei
+Unpronouncable Nonword Target,Puls,Peat
+Unpronouncable Nonword Target,Lektion,Rchalp
+Unpronouncable Nonword Target,Benutzer,Rüie
+Unpronouncable Nonword Target,Ofen,Bpch
+Unpronouncable Nonword Target,Verbot,Ypannw
+Unpronouncable Nonword Target,Firma,Hpt
+Unpronouncable Nonword Target,Liga,Oscke
+Unpronouncable Nonword Target,Schwarm,Uarbon
+Unpronouncable Nonword Target,Berg,Wldz
+Unpronouncable Nonword Target,Wandel,Schpne
+Unpronouncable Nonword Target,Show,Raepf
+Unpronouncable Nonword Target,Trumpf,Miscrer
+Unpronouncable Nonword Target,Peiniger,Erci
+Unpronouncable Nonword Target,Foto,Babou
+Unpronouncable Nonword Target,Arena,Jangb
+Unpronouncable Nonword Target,Narr,Aieo
+Unpronouncable Nonword Target,Quark,Spieavr
+Unpronouncable Nonword Target,Reibung,Compt
+Unpronouncable Nonword Target,Lehrer,Niael
+Unpronouncable Nonword Target,Glauben,Iär
+Unpronouncable Nonword Target,Abschied,Aroje
+Unpronouncable Nonword Target,Chance,Pauchjr
+Unpronouncable Nonword Target,Ring,Lkaende
+Unpronouncable Nonword Target,Banner,Earge
+Unpronouncable Nonword Target,Blume,Xerbhnd
+Unpronouncable Nonword Target,Jod,Bius
+Unpronouncable Nonword Target,Ekstase,Abrt
+Unpronouncable Nonword Target,Zelt,Tmer
+Unpronouncable Nonword Target,Oase,Teeae
+Unpronouncable Nonword Target,Panzer,Glijs
+Unpronouncable Nonword Target,Vertrag,Xagnei
+Unpronouncable Nonword Target,Anhänger,Gzl
+Unpronouncable Nonword Target,Opa,Gzfükl
+Unpronouncable Nonword Target,Taxi,Nanctu
+Unpronouncable Nonword Target,Drache,Gaoen
+Unpronouncable Nonword Target,Zensur,Tahj
+Unpronouncable Nonword Target,Lüge,Jhyz
+Unpronouncable Nonword Target,Kämpfer,Sciwaoz
+Unpronouncable Nonword Target,Computer,Stuidq
+Unpronouncable Nonword Target,Milz,Faiediof
+Unpronouncable Nonword Target,Karte,Autaa
+Unpronouncable Nonword Target,Kurs,Tüufeb
+Unpronouncable Nonword Target,Zeitung,Gultrch
+Unpronouncable Nonword Target,Handel,Lffthng
+Unpronouncable Nonword Target,Schlucht,Oerlaui
+Unpronouncable Nonword Target,Meer,Aohaltär
+Unpronouncable Nonword Target,Schock,Keitii
+Unpronouncable Nonword Target,Messung,Torscaer
+Unpronouncable Nonword Target,Titel,Koztnn
+Unpronouncable Nonword Target,Netz,Oean
+Unpronouncable Nonword Target,Unikat,Vhiskiy
+Unpronouncable Nonword Target,Quatsch,Upstaid
+Unpronouncable Nonword Target,Prediger,Oupha
+Unpronouncable Nonword Target,Zange,Uof
+Unpronouncable Nonword Target,Siedler,Hsnsdcht
+Unpronouncable Nonword Target,Kakao,Abmnt
+Unpronouncable Nonword Target,Ergebnis,Iims
+Unpronouncable Nonword Target,Posten,Amzsicht
+Unpronouncable Nonword Target,Kühler,Wäier
+Unpronouncable Nonword Target,Jagd,Metiuer
+Unpronouncable Nonword Target,Inhaber,Jroniy
+Unpronouncable Nonword Target,Leitung,Vfrsjcht

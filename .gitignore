@@ -1,4 +1,7 @@
-data/*
-ba-sem-prime_lastrun.py
-ba-sem-prime_legacy.psyexp
 .DS_Store
+bin
+include
+lib
+share
+pyvenv.cfg
+**/__pycache__/
