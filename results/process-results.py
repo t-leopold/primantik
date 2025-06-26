@@ -3,7 +3,7 @@ from collections import defaultdict
 from typing import cast
 
 type RawValue = str | int | float | bool
-type ProValue = str | int | bool
+type ProValue = str | int
 
 input_file: str = 'results-raw.txt'
 output_file: str = 'results-processed.txt'
@@ -11,12 +11,12 @@ keys_to_keep_isi: dict[str, list[str]] = {
     'sender_id' : ['sender_id', 'str'],
     'prime' : ['prime', 'str'],
     'target' : ['target', 'str'],
-    'timeout' : ['timeout_soll', 'num'],
-    'duration' : ['timeout_ist', 'num']
+    'timeout' : ['soa_soll', 'num'],
+    'duration' : ['soa_ist', 'num']
 }
 keys_to_keep_dec: dict[str, list[str]] = {
     'sender_id' : ['sender_id', 'str'],
-    'correct' : ['correct', 'bool'],
+    'correct' : ['response', 'bool'],
     'duration' : ['response_time', 'num']
 }
 
@@ -28,10 +28,12 @@ def test_dict(obj: dict[str, RawValue]) -> bool:
 
 def reduce_obj(obj: dict[str, RawValue]) -> dict[str, ProValue]:
     keys_to_keep: dict[str, list[str]] = keys_to_keep_isi if obj['sender'] == 'Isi' else keys_to_keep_dec
+    reduced_obj_bool: dict[str, str] = {v[0]: str(obj.get(k, 'Timeout')) for k, v in keys_to_keep.items() if v[1] == 'bool'}
+    reduced_obj_num: dict[str, int] = {v[0]: round(cast(float, obj[k])) for k, v in keys_to_keep.items() if v[1] == 'num'}
+    if obj['sender'] == 'Decision':
+        reduced_obj_num['response_time'] = -1 if reduced_obj_bool['response'] == 'Timeout' else reduced_obj_num['response_time']
     reduced_obj_str: dict[str, str] = {v[0]: cast(str, obj[k]) for k, v in keys_to_keep.items() if v[1] == 'str'}
     reduced_obj_str['sender_id'] = truncate_sender_id(cast(str, obj['sender_id']))
-    reduced_obj_num: dict[str, int] = {v[0]: round(cast(float, obj[k])) for k, v in keys_to_keep.items() if v[1] == 'num'}
-    reduced_obj_bool: dict[str, bool] = {v[0]: cast(bool, obj.get(k, False)) for k, v in keys_to_keep.items() if v[1] == 'bool'}
     return {**reduced_obj_str, **reduced_obj_num, **reduced_obj_bool}
 
 with open(input_file, 'r', encoding='utf-8') as infile, open(output_file, 'w', encoding='utf-8') as outfile:
