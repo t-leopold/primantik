@@ -23,8 +23,7 @@ def plot_emm(df, result):
 
     # Plot estimated marginal means
     plt.figure(figsize=(10, 6))
-    sns.pointplot(x='relationship', y='predicted_rt', hue='soa', data=predict_df,
-                dodge=True, markers=['o', 's'], capsize=0.1, errwidth=1)
+    sns.pointplot(x='relationship', y='predicted_rt', hue='soa', data=predict_df, dodge=True, markers=['o', 's'], capsize=0.1, err_kws={'linewidth': 1})
     plt.title("Model-Predicted Reaction Times")
     plt.ylabel("Predicted RT (ms)")
     plt.xlabel("Relationship Type")
