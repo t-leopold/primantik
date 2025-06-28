@@ -1,13 +1,14 @@
 import argparse
 from os import path
 from custom_types import *
-from evaluation.process import process_results
-from evaluation.analyse import show_model_results_stats, calculate_model_stats, show_model_results_bambi, calculate_model_bambi
+from evaluation.process import process_results, extract_metadata
+from evaluation.analyse import show_model_results_stats, calculate_model_stats, show_model_results_bambi, calculate_model_bambi, analyse_metadata
 
 DATA: dict[DataFiles, str] = {
     "conditions": "./conditions-experiment.csv",
     "results raw": "./results/results-raw.txt",
-    "results processed": "./results/results-processed.txt"
+    "results processed": "./results/results-processed.txt",
+    "metadata": "./results/metadata.txt"
 }
 SCRIPTS: dict[Scripts, str] = {
     "process": "./evaluation/process.py",
@@ -35,6 +36,13 @@ def run_processing():
     output_file_path = path.join(base_path, DATA["results processed"])
     process_results(input_file_path, output_file_path)
 
+def run_metadata():
+    print("Running metadata extraction...")
+    input_file_path = path.join(base_path, DATA["results raw"])
+    output_file_path = path.join(base_path, DATA["metadata"])
+    extract_metadata(input_file_path, output_file_path)
+    analyse_metadata(output_file_path)
+
 def get_user_choice(prompt, options):
     print(prompt)
     for i, option in enumerate(options, start=1):
@@ -50,7 +58,7 @@ def get_user_choice(prompt, options):
             print("Please enter a valid number.")
 
 def main():
-    valid_modes = ["analysis", "processing"]
+    valid_modes = ["analysis", "processing", "metadata"]
     valid_libraries = ["bambi", "statsmodels"]
     valid_interaction = ["yes", "no"]
     valid_dvs = ["rt", "response"]
@@ -66,6 +74,9 @@ def main():
     mode = args.mode or get_user_choice("Select the mode of operation:", valid_modes)
     if mode == "processing":
         run_processing()
+        return
+    elif mode == "metadata":
+        run_metadata()
         return
 
     library = args.library or get_user_choice("Select the library to use:", valid_libraries)

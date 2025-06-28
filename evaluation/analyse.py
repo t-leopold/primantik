@@ -1,5 +1,7 @@
 import json
+from functools import reduce
 import pandas as pd
+import numpy as np
 import statsmodels.formula.api as smf
 import scipy.stats as stats
 import bambi as bmb
@@ -52,6 +54,33 @@ def load_trial_data(trial_data: str, relation_data: str, dependence: str) -> Tri
             except json.JSONDecodeError:
                 print(f'Skipping invalid line {i+1}')
     return data
+
+def analyse_metadata(metadata_file: str) -> dict[str, int | float]:
+    ages: list[int] = []
+    sexes: list[str] = []
+
+    with open(metadata_file, 'r') as file:
+        try:
+            metadata = json.loads(file.readline().strip())
+            for participant in metadata:
+                ages.append(participant['alter'])
+                sexes.append(participant['geschlecht'])
+
+        except json.JSONDecodeError:
+            print(f'Error in metadata file.')
+
+    analysed: dict[str, int | float] = {
+        'min_age' : min(ages),
+        'max_age' : max(ages),
+        'mean_age' : float(np.mean(ages)),
+        'num_fem' : reduce(lambda acc, val: acc+1 if val == 'f' else acc, sexes, 0),
+        'num_mas' : reduce(lambda acc, val: acc+1 if val == 'm' else acc, sexes, 0)
+    }
+
+    for k, v in analysed.items():
+        print(f'{k} = {v}')
+
+    return analysed
 
 def calculate_model_stats(interaction: Interaction, trial_data: str, relation_data: str):
     type_of_model: dict[Interaction, str] = {

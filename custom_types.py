@@ -4,7 +4,7 @@ type RawValue = str | int | float | bool
 type ProValue = str | int | bool
 type TrialsList = list[dict[str, ProValue]]
 
-type DataFiles = Literal['conditions', 'results raw', 'results processed']
+type DataFiles = Literal['conditions', 'results raw', 'results processed', 'metadata']
 type Scripts = Literal['process', 'analyse']
 
 type TrialParamDict = dict[str, tuple[str, str]]

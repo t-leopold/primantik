@@ -32,6 +32,24 @@ def reduce_obj(obj: dict[str, RawValue]) -> dict[str, ProValue]:
     reduced_obj_str['sender_id'] = truncate_sender_id(cast(str, obj['sender_id']))
     return {**reduced_obj_str, **reduced_obj_num, **reduced_obj_bool}
 
+def extract_metadata(input_file: str, output_file: str, pretty_print: bool=False):
+    with open(input_file, 'r', encoding='utf-8') as infile, open(output_file, 'w', encoding='utf-8') as outfile:
+        metadata: TrialsList = []
+        for line_number, line in enumerate(infile, 1):
+            try:
+                json_array: list[dict[str, RawValue]] = json.loads(line)[1:]
+
+                for obj in json_array:
+                    if not obj.get('sender') == 'Survey':
+                        continue
+                    metadata.append({k: int(obj[k]) if k == 'alter' else cast(str, obj[k]) for k in ('alter', 'geschlecht')})
+
+            except json.JSONDecodeError as e:
+                print(f'Line {line_number}: Invalid JSON. Skipping. Error: {e}')
+
+        if len(metadata) != 0:
+            outfile.write(json.dumps(metadata, ensure_ascii=False, indent=2 if pretty_print else None) + '\n')
+
 def process_results(input_file: str, output_file: str, pretty_print: bool=False):
     with open(input_file, 'r', encoding='utf-8') as infile, open(output_file, 'w', encoding='utf-8') as outfile:
         for line_number, line in enumerate(infile, 1):
