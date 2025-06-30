@@ -1,9 +1,8 @@
 # Primantik: Priming-Experiment
 
 ## To-Do
+- [ ] Modell ohne Testdaten rechnen
 - [ ] Parameter Versuchspersonen mit random slopes modellieren
-- [ ] Modell inkl Testdaten rechnen
-- [ ] Visualisierungsskript modularisieren
 - [ ] Standardabweichungen/Konfidenzintervalle zu Grafik hinzufügen
 
 ## Skripte

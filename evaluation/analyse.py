@@ -3,6 +3,7 @@ from functools import reduce
 import pandas as pd
 import numpy as np
 import statsmodels.formula.api as smf
+import statsmodels.regression.mixed_linear_model as mlm
 import scipy.stats as stats
 import bambi as bmb
 import arviz as az
@@ -82,7 +83,7 @@ def analyse_metadata(metadata_file: str) -> dict[str, int | float]:
 
     return analysed
 
-def calculate_model_stats(interaction: Interaction, trial_data: str, relation_data: str):
+def calculate_model_stats(interaction: Interaction, trial_data: str, relation_data: str) -> tuple[pd.DataFrame, mlm.MixedLM]:
     type_of_model: dict[Interaction, str] = {
         True : f'rt ~ soa * relationship',
         False : f'rt ~ soa + relationship'
@@ -92,7 +93,7 @@ def calculate_model_stats(interaction: Interaction, trial_data: str, relation_da
     df['relationship'] = pd.Categorical(df['relationship'], categories=['Unrelated', 'Associative', 'Semantic'])
     df['participant'] = df['participant'].astype('category')
 
-    return smf.mixedlm(type_of_model[interaction], df, groups=df['participant'])
+    return (df, smf.mixedlm(type_of_model[interaction], df, groups=df['participant']))
 
 def calculate_model_bambi(interaction: Interaction, dependence: DependentVariable, trial_data: str, relation_data: str):
     random_intercepts: str = '(1|participant)'
@@ -110,24 +111,25 @@ def calculate_model_bambi(interaction: Interaction, dependence: DependentVariabl
         family = 'bernoulli'
     return bmb.Model(type_of_model[interaction], df, family=family)
 
-def show_model_results_stats(model):
+def show_model_results_stats(model: mlm.MixedLM) -> mlm.MixedLMResultsWrapper:
     results = model.fit()
     print(results.summary())
+    return results
 
-def show_model_results_bambi(model):
+def show_model_results_bambi(model) -> None:
     results = model.fit(tune=1000, draws=1000)
     print(az.summary(results))
 
-def calculate_lrt_stats(dependence: DependentVariable, trial_data: str, relation_data: str) -> tuple[float, float, float]:
-    result_full = calculate_model_stats(True, trial_data, relation_data).fit()
-    result_reduced = calculate_model_stats(False, trial_data, relation_data).fit()
+def calculate_lrt_stats(trial_data: str, relation_data: str) -> tuple[float, float, float]:
+    result_full = calculate_model_stats(True, trial_data, relation_data)[1].fit()
+    result_reduced = calculate_model_stats(False, trial_data, relation_data)[1].fit()
 
     lr_stat = 2 * (result_full.llf - result_reduced.llf)
     df_diff = result_full.df_modelwc - result_reduced.df_modelwc
-    p_value = stats.chi2.sf(lr_stat, df_diff)
+    p_value = float(stats.chi2.sf(lr_stat, df_diff))
     return (lr_stat, df_diff, p_value)
 
-def show_lrt_results(lr_stat, df_diff, p_value):
+def show_lrt_results(lr_stat, df_diff, p_value) -> None:
     print(f'Likelihood Ratio Test:')
     print(f'  LR stat = {lr_stat:.3f}')
     print(f'  df = {df_diff}')

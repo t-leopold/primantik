@@ -32,7 +32,7 @@ def reduce_obj(obj: dict[str, RawValue]) -> dict[str, ProValue]:
     reduced_obj_str['sender_id'] = truncate_sender_id(cast(str, obj['sender_id']))
     return {**reduced_obj_str, **reduced_obj_num, **reduced_obj_bool}
 
-def extract_metadata(input_file: str, output_file: str, pretty_print: bool=False):
+def extract_metadata(input_file: str, output_file: str, pretty_print: bool=False) -> None:
     with open(input_file, 'r', encoding='utf-8') as infile, open(output_file, 'w', encoding='utf-8') as outfile:
         metadata: TrialsList = []
         for line_number, line in enumerate(infile, 1):
@@ -50,7 +50,7 @@ def extract_metadata(input_file: str, output_file: str, pretty_print: bool=False
         if len(metadata) != 0:
             outfile.write(json.dumps(metadata, ensure_ascii=False, indent=2 if pretty_print else None) + '\n')
 
-def process_results(input_file: str, output_file: str, pretty_print: bool=False):
+def process_results(input_file: str, output_file: str, pretty_print: bool=False) -> None:
     with open(input_file, 'r', encoding='utf-8') as infile, open(output_file, 'w', encoding='utf-8') as outfile:
         for line_number, line in enumerate(infile, 1):
             try:

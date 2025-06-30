@@ -1,7 +1,9 @@
+**/__pycache__/
 .DS_Store
 bin
 include
 lib
-share
+plots
 pyvenv.cfg
-**/__pycache__/
+share
+tmp
