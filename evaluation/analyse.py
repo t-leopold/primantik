@@ -89,44 +89,49 @@ def calculate_model_stats(interaction: Interaction, trial_data: str, relation_da
         False : f'rt ~ soa + relationship'
     }
     df = pd.DataFrame(load_trial_data(trial_data, relation_data, 'rt'))
-    df['soa'] = pd.Categorical(df['soa'], categories=[50, 850])
+    df['soa'] = pd.Categorical(df['soa'], categories=[200, 1000])
     df['relationship'] = pd.Categorical(df['relationship'], categories=['Unrelated', 'Associative', 'Semantic'])
     df['participant'] = df['participant'].astype('category')
 
     return (df, smf.mixedlm(type_of_model[interaction], df, groups=df['participant']))
 
-def calculate_model_bambi(interaction: Interaction, dependence: DependentVariable, trial_data: str, relation_data: str):
+def calculate_model_bambi(interaction: Interaction, dependence: DependentVariable, trial_data: str, relation_data: str) -> tuple[pd.DataFrame, bmb.Model]:
     random_intercepts: str = '(1|participant)'
     type_of_model: dict[Interaction, str] = {
         True : f'{dependence} ~ soa * relationship + {random_intercepts}',
         False : f'{dependence} ~ soa + relationship + {random_intercepts}'
     }
     df = pd.DataFrame(load_trial_data(trial_data, relation_data, dependence))
-    df['soa'] = pd.Categorical(df['soa'], categories=[50, 850])
+    df['soa'] = pd.Categorical(df['soa'], categories=[200, 1000])
     df['relationship'] = pd.Categorical(df['relationship'], categories=['Unrelated', 'Associative', 'Semantic'])
     df['participant'] = df['participant'].astype('category')
 
     family: str = 'gaussian'
     if dependence == 'response':
         family = 'bernoulli'
-    return bmb.Model(type_of_model[interaction], df, family=family)
+
+    return (df, bmb.Model(type_of_model[interaction], df, family=family))
 
 def show_model_results_stats(model: mlm.MixedLM) -> mlm.MixedLMResultsWrapper:
     results = model.fit()
+    latex_summary = results.summary().as_latex()
+    with open("model_summary.tex", "w") as f:
+        f.write(latex_summary)
     print(results.summary())
     return results
 
-def show_model_results_bambi(model) -> None:
-    results = model.fit(tune=1000, draws=1000)
+def show_model_results_bambi(model: bmb.Model) -> az.InferenceData:
+    results = model.fit()
     print(az.summary(results))
+    return results
 
 def calculate_lrt_stats(trial_data: str, relation_data: str) -> tuple[float, float, float]:
-    result_full = calculate_model_stats(True, trial_data, relation_data)[1].fit()
-    result_reduced = calculate_model_stats(False, trial_data, relation_data)[1].fit()
+    result_full: mlm.MixedLMResultsWrapper = calculate_model_stats(True, trial_data, relation_data)[1].fit()
+    result_reduced: mlm.MixedLMResultsWrapper = calculate_model_stats(False, trial_data, relation_data)[1].fit()
 
-    lr_stat = 2 * (result_full.llf - result_reduced.llf)
-    df_diff = result_full.df_modelwc - result_reduced.df_modelwc
-    p_value = float(stats.chi2.sf(lr_stat, df_diff))
+    lr_stat: float = 2 * (result_full.llf - result_reduced.llf)
+    df_diff: float = result_full.df_modelwc - result_reduced.df_modelwc
+    p_value: float = float(stats.chi2.sf(lr_stat, df_diff))
     return (lr_stat, df_diff, p_value)
 
 def show_lrt_results(lr_stat, df_diff, p_value) -> None:

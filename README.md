@@ -1,6 +1,7 @@
 # Primantik: Priming-Experiment
 
 ## To-Do
+- [ ] Plots mit Bibliothek Bambi
 - [ ] Modell ohne Testdaten rechnen
 - [ ] Parameter Versuchspersonen mit random slopes modellieren
 - [ ] Standardabweichungen/Konfidenzintervalle zu Grafik hinzufügen

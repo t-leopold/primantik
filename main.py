@@ -2,8 +2,8 @@ import argparse
 from os import path
 from custom_types import *
 from evaluation.process import process_results, extract_metadata
-from evaluation.analyse import show_model_results_stats, calculate_model_stats, show_model_results_bambi, calculate_model_bambi, analyse_metadata
-from evaluation.visualise import plot_rt, plot_emm
+from evaluation.analyse import calculate_lrt_stats, show_lrt_results, show_model_results_stats, calculate_model_stats, show_model_results_bambi, calculate_model_bambi, analyse_metadata
+from evaluation.visualise import plot_rt, plot_response, plot_emm_rt, plot_emm_response
 
 DATA: dict[DataFiles, str] = {
     "conditions": "./conditions-experiment.csv",
@@ -22,18 +22,28 @@ relation_data_path: str = path.join(base_path, DATA["conditions"])
 
 def run_glmm_bambi(interaction: bool) -> None:
     print("Running GLMM with Bambi...")
-    show_model_results_bambi(calculate_model_bambi(interaction, 'response', trial_data_path, relation_data_path))
+    df, model = calculate_model_bambi(interaction, 'response', trial_data_path, relation_data_path)
+    plot_response(df, path.join(base_path, f'{DATA["plots"]}response-raw'))
+    plot_emm_response(df, model, path.join(base_path, f'{DATA["plots"]}response-bambi-{'inter' if interaction else 'indep'}'))
 
 def run_lmm_bambi(interaction: bool) -> None:
     print("Running LMM with Bambi...")
-    show_model_results_bambi(calculate_model_bambi(interaction, 'rt', trial_data_path, relation_data_path))
+    df, model = calculate_model_bambi(interaction, 'rt', trial_data_path, relation_data_path)
+    show_model_results_bambi(model)
+    plot_rt(df, path.join(base_path, f'{DATA["plots"]}rt-raw'))
+    plot_emm_rt(df, model, path.join(base_path, f'{DATA["plots"]}rt-bambi-{'inter' if interaction else 'indep'}'))
 
 def run_statsmodels(interaction: bool) -> None:
     print("Running LMM with Statsmodels...")
     df, model = calculate_model_stats(interaction, trial_data_path, relation_data_path)
-    results = show_model_results_stats(model)
+    show_model_results_stats(model)
     plot_rt(df, path.join(base_path, f'{DATA["plots"]}rt-raw'))
-    plot_emm(df, results, path.join(base_path, f'{DATA["plots"]}rt-statsmodels-{'inter' if interaction else 'indep'}'))
+    plot_emm_rt(df, model, path.join(base_path, f'{DATA["plots"]}rt-statsmodels-{'inter' if interaction else 'indep'}'))
+
+def run_lrt_stats() -> None:
+    print("Running Likelihood-ratio test based on Statsmodels...")
+    lr_stat, df_diff, p_value = calculate_lrt_stats(trial_data_path, relation_data_path)
+    show_lrt_results(lr_stat, df_diff, p_value)
 
 def run_processing() -> None:
     print("Running results processing...")
@@ -48,7 +58,7 @@ def run_metadata() -> None:
     extract_metadata(input_file_path, output_file_path)
     analyse_metadata(output_file_path)
 
-def get_user_choice(prompt, options) -> None:
+def get_user_choice(prompt: str, options: list[str]) -> str:
     print(prompt)
     for i, option in enumerate(options, start=1):
         print(f"{i}. {option}")
@@ -62,39 +72,43 @@ def get_user_choice(prompt, options) -> None:
         except ValueError:
             print("Please enter a valid number.")
 
-def main():
-    valid_modes: list[str] = ["analysis", "processing", "metadata"]
+def main() -> int:
+    valid_modes: list[str] = ["analysis", "lrt", "processing", "metadata"]
     valid_libraries: list[str] = ["bambi", "statsmodels"]
     valid_interaction: list[str] = ["yes", "no"]
     valid_dvs: list[str] = ["rt", "response"]
 
     parser = argparse.ArgumentParser(description="Select mode, library, interaction, and dependent variables")
-    parser.add_argument("mode", nargs="?", choices=valid_modes, help="Mode of operation (analysis, processing, or metadata)")
+    parser.add_argument("mode", nargs="?", choices=valid_modes, help="Mode of operation (analysis, lrt, processing, or metadata)")
     parser.add_argument("library", nargs="?", choices=valid_libraries, help="Library to use (bambi or statsmodels)")
     parser.add_argument("interact", nargs="?", choices=valid_interaction, help="Interaction of independent variables (yes or no)")
     parser.add_argument("dv", nargs="?", choices=valid_dvs, help="Dependent variables to use (rt or response)")
     args = parser.parse_args()
 
     # Prompt if missing
-    mode = args.mode or get_user_choice("Select the mode of operation:", valid_modes)
+    mode: str = args.mode or get_user_choice("Select the mode of operation:", valid_modes)
     if mode == "processing":
         run_processing()
-        return
+        return 0
+    elif mode == "lrt":
+        run_lrt_stats()
+        return 0
     elif mode == "metadata":
         run_metadata()
-        return
+        return 0
 
-    library = args.library or get_user_choice("Select the library to use:", valid_libraries)
-    interaction = True if (args.interact or get_user_choice("Select whether independent variables interact:", valid_interaction)) == 'yes' else False
+    library: str = args.library or get_user_choice("Select the library to use:", valid_libraries)
+    interaction: bool = True if (args.interact or get_user_choice("Select whether independent variables interact:", valid_interaction)) == 'yes' else False
     if library == "statsmodels":
         run_statsmodels(interaction)
-        return
+        return 0
 
-    dv = args.dv or get_user_choice("Select the dependent variable to use:", valid_dvs)
+    dv: str = args.dv or get_user_choice("Select the dependent variable to use:", valid_dvs)
     if dv == "response":
         run_glmm_bambi(interaction)
     else:
         run_lmm_bambi(interaction)
+    return 0
 
 if __name__ == "__main__":
     main()

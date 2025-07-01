@@ -18,7 +18,7 @@ def reduce_obj(obj: dict[str, RawValue]) -> dict[str, ProValue]:
         'prime' : ('prime', 'str'),
         'target' : ('target', 'str'),
         'timeout' : ('soa_soll', 'num'),
-        'duration' : ('soa_ist', 'num')
+        'duration' : ('duration_isi', 'num')
     }
     keys_to_keep_dec: TrialParamDict = {
         'sender_id' : ('sender_id', 'str'),
@@ -28,6 +28,8 @@ def reduce_obj(obj: dict[str, RawValue]) -> dict[str, ProValue]:
     keys_to_keep: TrialParamDict = keys_to_keep_isi if obj['sender'] == 'Isi' else keys_to_keep_dec
     reduced_obj_bool: dict[str, bool] = {v[0]: cast(bool, obj[k]) for k, v in keys_to_keep.items() if v[1] == 'bool'}
     reduced_obj_num: dict[str, int] = {v[0]: round(cast(float, obj[k])) for k, v in keys_to_keep.items() if v[1] == 'num'}
+    if obj['sender'] == 'Isi':
+        reduced_obj_num['soa_soll'] += 150
     reduced_obj_str: dict[str, str] = {v[0]: cast(str, obj[k]) for k, v in keys_to_keep.items() if v[1] == 'str'}
     reduced_obj_str['sender_id'] = truncate_sender_id(cast(str, obj['sender_id']))
     return {**reduced_obj_str, **reduced_obj_num, **reduced_obj_bool}
