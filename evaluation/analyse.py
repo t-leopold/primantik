@@ -17,7 +17,7 @@ def load_relationship_data(file: str) -> RelationshipDict:
     }
     return relationship_lookup
 
-def load_trial_data(trial_data: str, relation_data: str, dependence: str) -> TrialsList:
+def load_trial_data(trial_data: str, relation_data: str, dependence: DependentVariable) -> TrialsList:
     relationship_lookup: RelationshipDict = load_relationship_data(relation_data)
     data: list[dict[str, ProValue]] = []
 
@@ -83,12 +83,20 @@ def analyse_metadata(metadata_file: str) -> dict[str, int | float]:
 
     return analysed
 
+def calculate_correct_responses(trial_data: str, relation_data: str) -> pd.DataFrame:
+    df: pd.DataFrame = pd.DataFrame(load_trial_data(trial_data, relation_data, 'response'))
+    counts: pd.DataFrame = df.groupby(['relationship', 'soa', 'response']).size().unstack(fill_value=0)
+    counts.rename(columns={True: 'correct', False: 'incorrect'}, inplace=True)
+    counts['total'] = counts['correct'] + counts['incorrect']
+    print(counts)
+    return counts
+
 def calculate_model_stats(interaction: Interaction, trial_data: str, relation_data: str) -> tuple[pd.DataFrame, mlm.MixedLM]:
     type_of_model: dict[Interaction, str] = {
         True : f'rt ~ soa * relationship',
         False : f'rt ~ soa + relationship'
     }
-    df = pd.DataFrame(load_trial_data(trial_data, relation_data, 'rt'))
+    df: pd.DataFrame = pd.DataFrame(load_trial_data(trial_data, relation_data, 'rt'))
     df['soa'] = pd.Categorical(df['soa'], categories=[200, 1000])
     df['relationship'] = pd.Categorical(df['relationship'], categories=['Unrelated', 'Associative', 'Semantic'])
     df['participant'] = df['participant'].astype('category')
@@ -97,31 +105,35 @@ def calculate_model_stats(interaction: Interaction, trial_data: str, relation_da
 
 def calculate_model_bambi(interaction: Interaction, dependence: DependentVariable, trial_data: str, relation_data: str) -> tuple[pd.DataFrame, bmb.Model]:
     random_intercepts: str = '(1|participant)'
+    categorical_data: list[str] = ['soa', 'relationship']
+    if dependence == 'response':
+        categorical_data.append('response')
     type_of_model: dict[Interaction, str] = {
-        True : f'{dependence} ~ soa * relationship + {random_intercepts}',
-        False : f'{dependence} ~ soa + relationship + {random_intercepts}'
+        True : f'{dependence} ~ soa * C(relationship, Treatment(reference="Unrelated")) + {random_intercepts}',
+        False : f'{dependence} ~ soa + C(relationship, Treatment(reference="Unrelated")) + {random_intercepts}'
     }
-    df = pd.DataFrame(load_trial_data(trial_data, relation_data, dependence))
+    df: pd.DataFrame = pd.DataFrame(load_trial_data(trial_data, relation_data, dependence))
     df['soa'] = pd.Categorical(df['soa'], categories=[200, 1000])
-    df['relationship'] = pd.Categorical(df['relationship'], categories=['Unrelated', 'Associative', 'Semantic'])
+    df['relationship'] = pd.Categorical(values=df['relationship'], categories=['Unrelated', 'Associative', 'Semantic'])
     df['participant'] = df['participant'].astype('category')
 
     family: str = 'gaussian'
     if dependence == 'response':
         family = 'bernoulli'
 
-    return (df, bmb.Model(type_of_model[interaction], df, family=family))
+    return (df, bmb.Model(formula=type_of_model[interaction], data=df, family=family, categorical=categorical_data))
 
 def show_model_results_stats(model: mlm.MixedLM) -> mlm.MixedLMResultsWrapper:
-    results = model.fit()
+    results: mlm.MixedLMResultsWrapper = model.fit()
     latex_summary = results.summary().as_latex()
-    with open("model_summary.tex", "w") as f:
+    with open('statsmodels_model_summary.tex', 'w') as f:
         f.write(latex_summary)
     print(results.summary())
     return results
 
 def show_model_results_bambi(model: bmb.Model) -> az.InferenceData:
     results = model.fit()
+    az.summary(results).to_latex('bambi_model_summary.tex')
     print(az.summary(results))
     return results
 

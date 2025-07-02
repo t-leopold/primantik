@@ -24,6 +24,7 @@ Um die Analyse in Python durchzuführen, werden ein paar Bibliotheken benötigt.
 python3 -m venv .
 python3 -m pip install scipy==1.15.3
 python3 -m pip install statsmodels
+python3 -m pip install jinja2
 python3 -m pip install bambi
 python3 -m pip install seaborn
 ```
