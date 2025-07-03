@@ -86,9 +86,14 @@ def analyse_metadata(metadata_file: str) -> dict[str, int | float]:
 def calculate_correct_responses(trial_data: str, relation_data: str) -> pd.DataFrame:
     df: pd.DataFrame = pd.DataFrame(load_trial_data(trial_data, relation_data, 'response'))
     counts: pd.DataFrame = df.groupby(['relationship', 'soa', 'response']).size().unstack(fill_value=0)
-    counts.rename(columns={True: 'correct', False: 'incorrect'}, inplace=True)
-    counts['total'] = counts['correct'] + counts['incorrect']
+    counts.rename(columns={True: 'Correct', False: 'Incorrect'}, inplace=True)
+    counts['Total'] = counts['Correct'] + counts['Incorrect']
+    counts['percent_correct'] = (counts['Correct']/counts['Total'])*100
+    latex_table = counts.reset_index().to_latex(index=False, float_format='%.2f')
+    with open('correctness_by_condition.tex', 'w') as f:
+        f.write(latex_table)
     print(counts)
+    counts = counts.drop(labels='percent_correct', axis=1)
     return counts
 
 def calculate_model_stats(interaction: Interaction, trial_data: str, relation_data: str) -> tuple[pd.DataFrame, mlm.MixedLM]:

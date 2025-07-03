@@ -19,10 +19,19 @@ def plot_rt(df, figures_dir: str, show: bool = False) -> None:
         plt.show()
 
 def plot_response(df, figures_dir: str, show: bool = False) -> None:
+    custom_labels = {
+        'Associative-200': 'Associative–200',
+        'Associative-1000': 'Associative–1000',
+        'Semantic-200': 'Semantic–200',
+        'Semantic-1000': 'Semantic–1000',
+        'Unrelated-200': 'Unrelated–200',
+        'Unrelated-1000': 'Unrelated–1000',
+    }
     plt.figure(figsize=(6, 4))
-    sns.heatmap(data=df, annot=True, fmt='d', cmap='Blues')
-    plt.title('Correct Responses by SOA and Relationship (Raw Data)')
-    plt.ylabel('Relationship-SOA')
+    heatmap = sns.heatmap(data=df, annot=True, fmt='.0f', cmap='Blues')
+    heatmap.set_yticklabels([custom_labels[label.get_text()] for label in heatmap.get_yticklabels()], rotation=0)
+    plt.title('Responses by SOA and Relationship (Raw Data)')
+    plt.ylabel('Relationship–SOA [ms]')
     plt.xlabel('Response')
     plt.tight_layout()
     plt.savefig(figures_dir)
